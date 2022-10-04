@@ -708,6 +708,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
             case 'instagram': {
               jobotz.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/CWnBpSZ/Bae-sana-pacar-saya.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\nINSTAGRAM OWNER\n\nJANGAN LUPA FOLLOW NANTI DI FOLLBACK\n\n⇛https://instagram.com/kiki_notrobot` }, { quoted: m })
+		    }
             break
             case 'chat': {
                 if (!isCreator) throw mess.owner
