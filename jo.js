@@ -4218,7 +4218,7 @@ need help?, bot report broken or not working?
 ┃╰── ⏤͟͟͞MENU NYA ──➤ ↶↷
 ╰━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━͙✩̣̣̣̣
 ▬▭▬ ▬▭ ✦✧✦ ▬▭▬ ▬▭
-`╔═══════✪「 MAKER 」	
+╔═══════✪「 MAKER 」	
 ╠ ${prefix}candy
 ╠ ${prefix}8bit
 ╠ ${prefix}horror
