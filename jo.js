@@ -704,13 +704,13 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 case 'sewabot': {
 reply(`✿ HARGA SEWA DAN JUAL\n\n\n✥ Harga Sewa\n – 1 BULAN = Rp.15.000\n – 3 BULAN = Rp. 50.000\n\n✥ Harga Sewa Fitur Premium\n – 1 BULAN = Rp. 5.000\n – 3 BULAN = Rp. 15.000\n\n\n© KikiStore ✮`)
-]
+}
             break
             case 'scgw': {
                 m.reply('Cari Script???\nAmbil di YouTube gweh \nhttps://youtube.com/channel/UC-EkKfwcnW1jvIfwTm3IzsQ')
             }
             break
-            case 'instagram': {
+            case 'ig': case 'instagram': {
               jobotz.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/CWnBpSZ/Bae-sana-pacar-saya.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\nINSTAGRAM OWNER\n\nJANGAN LUPA FOLLOW NANTI DI FOLLBACK\n\n⇛https://instagram.com/kiki_notrobot` }, { quoted: m })
               }       
             break
@@ -1375,8 +1375,8 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1413,8 +1413,8 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -3849,8 +3849,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -3926,8 +3926,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4010,8 +4010,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4090,8 +4090,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4176,8 +4176,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4353,8 +4353,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4434,8 +4434,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4512,8 +4512,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4601,8 +4601,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4700,8 +4700,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4786,8 +4786,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4865,8 +4865,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4942,8 +4942,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -5015,8 +5015,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -5089,8 +5089,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -5170,8 +5170,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -5250,8 +5250,8 @@ need help?, bot report broken or not working?
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'INSTAGRAM',
-                                    id: 'instagram'
+                                    displayText: 'ALLMENU',
+                                    id: 'allmenu'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
